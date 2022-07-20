@@ -1,24 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import styled from 'styled-components'
+import IntroCard from './components/IntroCard';
+import Navbar from './components/Navbar';
+import MidCard from './components/MidCard';
+import BottomNav from './components/BottomNav';
+import ProjectsList from './components/ProjectsList';
+import Footer from './components/Footer';
+
+const AppWrapper = styled.div`
+   background-image: url("background-2.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   overflow: hidden;
+   height: auto;
+`;
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AppWrapper>
+      <Navbar />
+      <IntroCard />
+      <MidCard />
+      <ProjectsList />
+      <BottomNav />
+      <Footer />
+    </AppWrapper>
   );
 }
 
