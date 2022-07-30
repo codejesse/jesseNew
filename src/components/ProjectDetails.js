@@ -71,8 +71,8 @@ function ProjectDetails() {
                     <DetailsHeader>{ProjectsData[id].title}</DetailsHeader>
                     <DetailsPara>{ProjectsData[id].desc}</DetailsPara>
                     <ProjectLinks>
-                        <FaExternalLinkAlt size={28} />
-                        <FaGithub size={30} />
+                        <a href={ProjectsData[id].live} target="_blank" ><FaExternalLinkAlt size={28} /></a>
+                        <a href={ProjectsData[id].github} target="_blank" ><FaGithub size={30} /></a>
                     </ProjectLinks>
                 </DetailsData>
             </DetailsContainer>

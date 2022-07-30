@@ -10,8 +10,8 @@ const ProjectsData = [
         "title": "Jobbble",
         "img": "/project-1.png",
         "desc": "Simple jobs aggregator site made with Reactjs, styled-components and RemotiveApi.",
-        "github": "",
-        "live": ""
+        "github": "https://github.com/codejesse/Jobbble",
+        "live": "https://jobbble.vercel.app/"
     },
     {
         "id": 2,
