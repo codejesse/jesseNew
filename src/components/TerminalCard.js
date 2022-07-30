@@ -1,5 +1,8 @@
 import styled from 'styled-components'
 import { DotTray, RedDot, GreenDot, YellowDot } from './IntroCard';
+import AOS from "aos";
+import "aos/dist/aos.css";
+import React, { useEffect } from "react";
 
 const TerminalCardWrapper = styled.div`
    width: 373px;
@@ -26,9 +29,13 @@ const AboutText = styled.p`
 
 
 function TerminalCard() {
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+      }, []);
     const Time = new Date()
     return (
-        <TerminalCardWrapper>
+        <TerminalCardWrapper data-aos="fade-up">
             <DotTray style={{ width: "62px" }}>
                 <RedDot />
                 <YellowDot />

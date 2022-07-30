@@ -9,6 +9,7 @@ const NavWrapper = styled.div`
    background: rgba(234, 234, 234, 0.3);
    backdrop-filter: blur(10px);
    position: fixed;
+   z-index: 999;
    &:hover {
     height: 150px;
     transition: 0.3s ease-in-out;
@@ -44,14 +45,15 @@ const NavIcon = styled.div`
 
 
 
+
+
 function Navbar() {
   return (
     <NavWrapper>
       <NameChip>
         <NameTag>Jesse</NameTag>
       </NameChip>
-      <NavIcon><img src='plus.png' alt='plus-icon' height="30px" width="30px" /></NavIcon>
-      {/* <ProjectsTray /> */}
+      {/* <NavIcon><img src='Plus.png' alt='plus-icon' height="30px" width="30px" /></NavIcon> */}
     </NavWrapper>
   )
 }

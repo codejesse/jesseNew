@@ -1,11 +1,12 @@
 import styled from 'styled-components'
 import { DotTray, RedDot, GreenDot, YellowDot } from './IntroCard';
+import AOS from "aos";
+import "aos/dist/aos.css";
+import React, { useEffect } from "react";
 
 const SpotifyCardWrapper = styled.div`
    width: 373px;
    height: 374px;
-   left: 989px;
-   top: 144px;
    background: #FFFFFF;
    border: 1px solid #B1B1B1;
    box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.1);
@@ -24,8 +25,12 @@ const CardDetails = styled.div`
 
 
 function SpotifyCard() {
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+      }, []);
     return (
-        <SpotifyCardWrapper>
+        <SpotifyCardWrapper data-aos="fade-down">
             <DotTray style={{ width: "62px" }}>
                 <RedDot />
                 <YellowDot />

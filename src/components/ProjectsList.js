@@ -5,6 +5,7 @@ import ProjectsData from "./data";
 const ProjectsContainer = styled.div`
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   margin: 55px;
   justify-content: center;
   @media (max-width: 800px) {
@@ -20,6 +21,7 @@ function ProjectsList() {
       {ProjectsData.map((data, i) =>
         <ProjectCard
           key={i}
+          id={i}
           title={data.title}
           desc={data.desc}
           img={data.img}

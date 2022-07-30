@@ -7,25 +7,25 @@ const TextData = [
 const ProjectsData = [
     {
         "id": 1,
-        "title": "Jobble",
-        "img": "project-1.png",
-        "desc": "Simple jobs aggregator site made with Reactjs Redux and RemotiveApi",
+        "title": "Jobbble",
+        "img": "/project-1.png",
+        "desc": "Simple jobs aggregator site made with Reactjs, styled-components and RemotiveApi.",
         "github": "",
         "live": ""
     },
     {
         "id": 2,
-        "title": "oneshop",
-        "img": "project-2.png",
-        "desc": "A landing page for oneshop made with Reactjs, Redux and shopApi i made",
+        "title": "Panda NFT",
+        "img": "/project-2.png",
+        "desc": "A landing page/Store for NFT made with Reactjs, Redux, and styled-components.",
         "github": "",
         "live": ""
     },
     {
         "id": 3,
-        "title": "Tesla Landing",
-        "img": "project-1.png",
-        "desc": "A landing page for oneshop made with Reactjs, Redux and shopApi i made",
+        "title": "In the works⏳",
+        "img": "/project-2.png",
+        "desc": "Clickup productivity clone being made with Reactjs and Typescript.",
         "github": "",
         "live": ""
     }

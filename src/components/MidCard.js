@@ -1,6 +1,10 @@
 import styled from 'styled-components'
 import TerminalCard from './TerminalCard';
+import { useEffect } from 'react';
 import { DotTray, RedDot, GreenDot, YellowDot } from './IntroCard';
+import { useState } from 'react';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const MidCardContainer = styled.div`
     display: flex;
@@ -38,19 +42,64 @@ const StatsText = styled.h2`
   }
 `;
 
+const BlogWrapper = styled.div`
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+`;
+
+const BlogHeaderText = styled.h3`
+   font-family: sans-serif;
+   margin: 10px;
+   text-overflow: ellipsis;
+`;
+
+const BlogCard = styled.div`
+   width: 262.31px;
+   height: 250px;
+   border-radius: 16px;
+   /* border: 1px solid black; */
+   margin-right: 5px;
+   box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
+   border-radius: 15px;
+`;
+
 
 
 function MidCard() {
+  const [Blogs, setBlogs] = useState([])
+  useEffect(() => {
+    fetch("https://dev.to/api/articles?username=codejesse")
+    .then(data => data.json())
+    .then(data => {
+      setBlogs(data)
+    })
+  }, [])
+
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+  console.log(Blogs)
+
     return (
         <MidCardContainer>
             <TerminalCard />
-            <StatsCard>
+            <StatsCard data-aos="fade-down">
                 <DotTray>
                     <RedDot />
                     <YellowDot />
                     <GreenDot />
                 </DotTray>
-                <StatsText title='Blog posts'>📝Github stats and blog posts here</StatsText>
+                {/* <StatsText title='Blog posts'>📝Github stats and blog posts here</StatsText> */}
+                <BlogWrapper>
+                    {Blogs && Blogs.map((post, id) => {
+                  <BlogCard key={id}>
+                      <BlogHeaderText>{post.description}</BlogHeaderText>
+                  </BlogCard>
+                    })}
+                  <BlogCard></BlogCard>
+                </BlogWrapper>
             </StatsCard>
         </MidCardContainer>
     )

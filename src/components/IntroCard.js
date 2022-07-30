@@ -1,5 +1,8 @@
 import styled from 'styled-components'
 import SpotifyCard from './SpotifyCard';
+import AOS from "aos";
+import "aos/dist/aos.css";
+import React, { useEffect } from "react";
 
 export const IntroContainer = styled.div`
   display: flex;
@@ -22,14 +25,10 @@ export const IntroCardWrapper = styled.div`
    border-radius: 20px;
    width: 50%;
    height: 320px;
-   background-image: url("img-2.png");
+   background-image: url("/vector3.png");
    background-repeat: no-repeat;
-   background-size: 20rem;
+   background-size: 22rem;
    background-position: right;
-   /* &:hover {
-    border: 4px solid blue;
-    transition: 0.1s all;
-  } */
    @media (max-width: 1200px) {
     background-image: none;
     width: 100%;
@@ -44,7 +43,7 @@ const ImageWrapper = styled.div`
 `;
 
 const TextWrapper = styled.div`
-   width: 338px;
+   width: 335px;
    height: auto;
    text-align: left;
    padding: 1rem;
@@ -104,9 +103,13 @@ export const GreenDot = styled.div`
 
 
 function IntroCard() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <IntroContainer>
-      <IntroCardWrapper>
+      <IntroCardWrapper data-aos="fade-up">
         <DotTray>
           <RedDot />
           <YellowDot />

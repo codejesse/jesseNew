@@ -6,9 +6,12 @@ import MidCard from './components/MidCard';
 import BottomNav from './components/BottomNav';
 import ProjectsList from './components/ProjectsList';
 import Footer from './components/Footer';
+import AOS from "aos";
+import "aos/dist/aos.css";
+import React, { useEffect } from "react";
 
-const AppWrapper = styled.div`
-   background-image: url("background-2.jpg");
+export const AppWrapper = styled.div`
+   background-image: url("/background-2.jpg");
    background-repeat: no-repeat;
    background-size: cover;
    overflow: hidden;
@@ -16,8 +19,12 @@ const AppWrapper = styled.div`
 `;
 
 function App() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
-    <AppWrapper>
+    <AppWrapper >
       <Navbar />
       <IntroCard />
       <MidCard />

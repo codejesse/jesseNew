@@ -1,11 +1,15 @@
 import styled from "styled-components";
 import { DotTray, RedDot, GreenDot, YellowDot } from './IntroCard';
+import { Link, BrowserRouter as Router } from "react-router-dom";
+import { useState } from 'react';
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 
 const CardContainer = styled.div`
    width: 373px;
    height: auto;
-   /* margin-right: 2rem; */
    margin: auto;
    background: white;
    border: 1px solid #B1B1B1;
@@ -27,6 +31,9 @@ const CardTitle = styled.h2`
   font-size: 2rem;
   font-weight: 700;
   text-align: right;
+  text-decoration: underline;
+  text-decoration-color: coral;
+  text-decoration-style: dotted;
 `;
 
 const CardDesc = styled.p`
@@ -37,6 +44,12 @@ const CardDesc = styled.p`
   margin-top: -1rem;
 `;
 
+// const CardLinks = styled.div`
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: space-around;
+//   width: 30%;
+// `;
 
 //Todo
 //create logic to assign random color to each project card from array:done
@@ -44,8 +57,12 @@ const CardDesc = styled.p`
 
 
 function ProjectCard({ id, title, img, desc, github, live }) {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
-    <CardContainer>
+    <CardContainer data-aos="fade-up">
       <DotTray style={{ width: "62px" }}>
         <RedDot />
         <YellowDot />
@@ -53,7 +70,9 @@ function ProjectCard({ id, title, img, desc, github, live }) {
       </DotTray>
       <CardDetails>
         <img src={img} alt={title} style={{ marginLeft: "-20px", marginTop: "-50px" }} />
-        <CardTitle>{title}</CardTitle>
+        <Link style={{ textDecoration: "none", color: "black" }} to={`/project/${id}`}>
+          <CardTitle>{title}</CardTitle>
+        </Link>
         <CardDesc>{desc}</CardDesc>
       </CardDetails>
     </CardContainer>
