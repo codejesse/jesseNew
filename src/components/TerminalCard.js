@@ -35,7 +35,7 @@ function TerminalCard() {
       }, []);
     const Time = new Date()
     return (
-        <TerminalCardWrapper data-aos="fade-up">
+        <TerminalCardWrapper data-aos="fade-up" data-aos-duration="2000">
             <DotTray style={{ width: "62px" }}>
                 <RedDot />
                 <YellowDot />

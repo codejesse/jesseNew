@@ -1,6 +1,10 @@
 import styled from "styled-components";
 import { DotTray, GreenDot, RedDot, YellowDot } from "./IntroCard";
 import { FaGithub, FaTwitter, FaEnvelope } from "react-icons/fa"
+import { useState } from 'react';
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const FooterWrapper = styled.div`
    display: flex;
@@ -61,8 +65,12 @@ const SocialWrapper = styled.div`
 
 
 function Footer() {
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+      }, []);
     return (
-        <FooterWrapper>
+        <FooterWrapper data-aos="zoom-in-up" data-aos-duration="1000">
             <FooterCard>
                 <DotTray>
                     <RedDot />

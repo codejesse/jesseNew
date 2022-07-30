@@ -8,6 +8,7 @@ const BottomNavContainer = styled.div`
     overflow: hidden;
     bottom: 0;
     margin-bottom: 1rem;
+    z-index: 999;
 `;
 
 const BottomNavWrapper = styled.div`

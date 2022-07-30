@@ -30,7 +30,7 @@ function SpotifyCard() {
         AOS.refresh();
       }, []);
     return (
-        <SpotifyCardWrapper data-aos="fade-down">
+        <SpotifyCardWrapper data-aos="fade-down" data-aos-duration="1000">
             <DotTray style={{ width: "62px" }}>
                 <RedDot />
                 <YellowDot />

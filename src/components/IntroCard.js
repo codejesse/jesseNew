@@ -109,7 +109,7 @@ function IntroCard() {
   }, []);
   return (
     <IntroContainer>
-      <IntroCardWrapper data-aos="fade-up">
+      <IntroCardWrapper data-aos="fade-up" data-aos-duration="2000">
         <DotTray>
           <RedDot />
           <YellowDot />

@@ -85,7 +85,7 @@ function MidCard() {
     return (
         <MidCardContainer>
             <TerminalCard />
-            <StatsCard data-aos="fade-down">
+            <StatsCard data-aos="fade-down" data-aos-duration="2000">
                 <DotTray>
                     <RedDot />
                     <YellowDot />

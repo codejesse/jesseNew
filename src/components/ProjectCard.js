@@ -62,7 +62,7 @@ function ProjectCard({ id, title, img, desc, github, live }) {
     AOS.refresh();
   }, []);
   return (
-    <CardContainer data-aos="fade-up">
+    <CardContainer data-aos="fade-up" data-aos-duration="2000">
       <DotTray style={{ width: "62px" }}>
         <RedDot />
         <YellowDot />
