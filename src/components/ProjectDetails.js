@@ -3,6 +3,9 @@ import Navbar from "./Navbar";
 import ProjectsData from "./data";
 import { useParams } from "react-router-dom";
 import BottomNav from "./BottomNav";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import React, { useEffect } from "react";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa"
 
 export const DetailsWrapper = styled.div`
@@ -55,23 +58,33 @@ export const ProjectLinks = styled.div`
    flex-direction: row;
    justify-content: space-between;
    width: 13%;
+   & a {
+    color: black;
+   }
+   & a:hover {
+    color: coral;
+   }
 `;
 
 //logic to show only the id that matches the global id:done
 
 
 function ProjectDetails() {
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+      }, []);
     const { id } = useParams();
     return (
         <DetailsWrapper>
             <Navbar />
-            <DetailsContainer>
+            <DetailsContainer data-aos="fade-up">
                 <img style={{ marginLeft: "-16px" }} src={ProjectsData[id].img} alt={ProjectsData[id].title} />
                 <DetailsData>
                     <DetailsHeader>{ProjectsData[id].title}</DetailsHeader>
                     <DetailsPara>{ProjectsData[id].desc}</DetailsPara>
                     <ProjectLinks>
-                        <a href={ProjectsData[id].live} target="_blank" ><FaExternalLinkAlt size={28} /></a>
+                        <a href={ProjectsData[id].live} target="_blank"><FaExternalLinkAlt size={28}/></a>
                         <a href={ProjectsData[id].github} target="_blank" ><FaGithub size={30} /></a>
                     </ProjectLinks>
                 </DetailsData>

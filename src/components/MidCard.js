@@ -33,15 +33,6 @@ const StatsCard = styled.div`
   }
 `;
 
-const StatsText = styled.h2`
-  margin: 135px;
-  color: black;
-  font-family: "Open sans", sans-serif;
-  @media (max-width: 1200px) {
-    margin: auto;
-  }
-`;
-
 const BlogWrapper = styled.div`
   display: flex;
   flex-direction: row;
@@ -70,10 +61,10 @@ function MidCard() {
   const [Blogs, setBlogs] = useState([])
   useEffect(() => {
     fetch("https://dev.to/api/articles?username=codejesse")
-    .then(data => data.json())
-    .then(data => {
-      setBlogs(data)
-    })
+      .then(data => data.json())
+      .then(data => {
+        setBlogs(data)
+      })
   }, [])
 
   useEffect(() => {
@@ -82,26 +73,25 @@ function MidCard() {
   }, []);
   console.log(Blogs)
 
-    return (
-        <MidCardContainer>
-            <TerminalCard />
-            <StatsCard data-aos="fade-down" data-aos-duration="2000">
-                <DotTray>
-                    <RedDot />
-                    <YellowDot />
-                    <GreenDot />
-                </DotTray>
-                {/* <StatsText title='Blog posts'>📝Github stats and blog posts here</StatsText> */}
-                <BlogWrapper>
-                    {Blogs && Blogs.map((post, id) => {
-                  <BlogCard key={id}>
-                      <BlogHeaderText>{post.description}</BlogHeaderText>
-                  </BlogCard>
-                    })}
-                  <BlogCard></BlogCard>
-                </BlogWrapper>
-            </StatsCard>
-        </MidCardContainer>
-    )
+  return (
+    <MidCardContainer>
+      <TerminalCard />
+      <StatsCard data-aos="fade-down" data-aos-duration="2000">
+        <DotTray>
+          <RedDot />
+          <YellowDot />
+          <GreenDot />
+        </DotTray>
+        <BlogWrapper>
+          {Blogs && Blogs.map((posts, id) => {
+            <BlogCard key={id}>
+              <BlogHeaderText>{posts.description}</BlogHeaderText>
+            </BlogCard>
+          })}
+          <BlogCard></BlogCard>
+        </BlogWrapper>
+      </StatsCard>
+    </MidCardContainer>
+  )
 }
 export default MidCard;

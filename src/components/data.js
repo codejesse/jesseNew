@@ -18,7 +18,7 @@ const ProjectsData = [
         "title": "Panda NFT",
         "img": "/project-2.png",
         "desc": "A landing page/Store for NFT made with Reactjs, Redux, and styled-components.",
-        "github": "",
+        "github": "https://github.com/codejesse/panda-nft",
         "live": ""
     },
     {
@@ -26,8 +26,8 @@ const ProjectsData = [
         "title": "In the works⏳",
         "img": "/project-2.png",
         "desc": "Clickup productivity clone being made with Reactjs and Typescript.",
-        "github": "",
-        "live": ""
+        "github": "https://github.com/codejesse/",
+        "live": "https://github.com/codejesse/"
     }
 ]
 
