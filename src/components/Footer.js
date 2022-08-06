@@ -5,19 +5,23 @@ import { useState } from 'react';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import Maps from "./Maps";
+
 
 const FooterWrapper = styled.div`
    display: flex;
-   justify-content: center;
+   justify-content: space-around;
    margin-top: 3rem;
    margin-bottom: 3rem;
+   margin: 2rem;
    @media (max-width: 800px) {
     margin: 5px;
+    flex-direction: column;
    }
 `;
 
 const FooterCard = styled.div`
-   width: 65%;
+   width: 60%;
    height: auto;
    background: #FFFFFF;
    background-image: url("/vector2.png");
@@ -27,6 +31,7 @@ const FooterCard = styled.div`
    border: 1px solid #B1B1B1;
    box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.1);
    border-radius: 20px;
+   margin-left: 1rem;
    @media (max-width: 800px) {
     width: 95%;
     margin: 10px;
@@ -70,8 +75,8 @@ function Footer() {
         AOS.refresh();
       }, []);
     return (
-        <FooterWrapper data-aos="zoom-in-up" data-aos-duration="1000">
-            <FooterCard>
+        <FooterWrapper>
+            <FooterCard data-aos="zoom-in-up" data-aos-duration="1000">
                 <DotTray>
                     <RedDot />
                     <YellowDot />
@@ -89,6 +94,7 @@ function Footer() {
                     </FooterRight>
                 </FooterDetails>
             </FooterCard>
+            <Maps />
         </FooterWrapper>
     )
 }

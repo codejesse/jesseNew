@@ -40,7 +40,8 @@ const DetailsData = styled.div`
    display: flex;
    flex-direction: column;
    margin: auto;
-   justify-content: right;
+   justify-content: right; 
+   width: 68%;
 `;
 
 const DetailsHeader = styled.h2`
@@ -51,13 +52,15 @@ const DetailsHeader = styled.h2`
 const DetailsPara = styled.p`
     font-family: "Open sans", sans-serif;
     margin-top: -1rem;
+    width: 80%;
+    color: #454545;
 `;
 
 export const ProjectLinks = styled.div`
    display: flex;
    flex-direction: row;
    justify-content: space-between;
-   width: 13%;
+   width: 10%;
    & a {
     color: black;
    }
@@ -73,7 +76,7 @@ function ProjectDetails() {
     useEffect(() => {
         AOS.init();
         AOS.refresh();
-      }, []);
+    }, []);
     const { id } = useParams();
     return (
         <DetailsWrapper>
@@ -82,10 +85,10 @@ function ProjectDetails() {
                 <img style={{ marginLeft: "-16px" }} src={ProjectsData[id].img} alt={ProjectsData[id].title} />
                 <DetailsData>
                     <DetailsHeader>{ProjectsData[id].title}</DetailsHeader>
-                    <DetailsPara>{ProjectsData[id].desc}</DetailsPara>
+                    <DetailsPara>{ProjectsData[id].details}</DetailsPara>
                     <ProjectLinks>
-                        <a href={ProjectsData[id].live} target="_blank"><FaExternalLinkAlt size={28}/></a>
-                        <a href={ProjectsData[id].github} target="_blank" ><FaGithub size={30} /></a>
+                        <a href={ProjectsData[id].live} target="_blank" rel="noreferrer"><FaExternalLinkAlt size={28} /></a>
+                        <a href={ProjectsData[id].github} target="_blank" rel="noreferrer"><FaGithub size={30} /></a>
                     </ProjectLinks>
                 </DetailsData>
             </DetailsContainer>

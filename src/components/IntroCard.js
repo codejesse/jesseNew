@@ -27,7 +27,7 @@ export const IntroCardWrapper = styled.div`
    height: 320px;
    background-image: url("/vector3.png");
    background-repeat: no-repeat;
-   background-size: 22rem;
+   background-size: 21rem;
    background-position: right;
    @media (max-width: 1200px) {
     background-image: none;
