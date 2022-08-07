@@ -69,7 +69,7 @@ function ProjectCard({ id, title, img, desc, github, live }) {
         <GreenDot />
       </DotTray>
       <CardDetails>
-        <img src={img} alt={title} style={{ marginLeft: "-20px", marginTop: "-50px" }} />
+        <img src={img} alt={title} width="400px"  style={{ marginLeft: "-20px", marginTop: "-50px" }} />
         <Link style={{ textDecoration: "none", color: "black" }} to={`/project/${id}`}>
           <CardTitle>{title}</CardTitle>
         </Link>

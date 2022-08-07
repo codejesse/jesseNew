@@ -82,7 +82,7 @@ function ProjectDetails() {
         <DetailsWrapper>
             <Navbar />
             <DetailsContainer data-aos="fade-up">
-                <img style={{ marginLeft: "-16px" }} src={ProjectsData[id].img} alt={ProjectsData[id].title} />
+                <img style={{ marginLeft: "-16px" }} width="500px" src={ProjectsData[id].img} alt={ProjectsData[id].title} />
                 <DetailsData>
                     <DetailsHeader>{ProjectsData[id].title}</DetailsHeader>
                     <DetailsPara>{ProjectsData[id].details}</DetailsPara>
