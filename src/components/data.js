@@ -8,7 +8,7 @@ const ProjectsData = [
     {
         "id": 1,
         "title": "Jobbble",
-        "img": "/Jobbble.png",
+        "img": "/jobbble.png",
         "desc": "Simple jobs aggregator site made with Reactjs, styled-components and RemotiveApi.",
         "details": "Jobbble is a simple jobs aggregator website made with Reactjs and RemotiveApi created to show top trending tech jobs. This project taught me \n how to utilize deep nested Apis and display its data.",
         "github": "https://github.com/codejesse/Jobbble",
