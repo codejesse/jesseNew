@@ -9,6 +9,9 @@ const BottomNavContainer = styled.div`
     bottom: 0;
     margin-bottom: 1rem;
     z-index: 999;
+    @media (max-width: 800px) {
+      width: 100%;
+    }
 `;
 
 const BottomNavWrapper = styled.div`
@@ -25,6 +28,7 @@ const BottomNavWrapper = styled.div`
 border-radius: 25px;
   @media (max-width: 600px) {
     margin: 15px;
+    width: 100%;
   }
 `;
 

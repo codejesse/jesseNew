@@ -18,9 +18,10 @@ const SpotifyCardWrapper = styled.div`
 
 const CardDetails = styled.div` 
    display: flex;
+   margin-top: 4rem;
    justify-content: center;
    font-family: "Open sans", sans-serif;
-   margin: auto;
+   padding: 3rem;
 `;
 
 

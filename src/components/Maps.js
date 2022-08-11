@@ -41,7 +41,7 @@ function Maps() {
         <MapsWrapper>
             <MapsCard data-aos="fade-down" data-aos-duration="1000">
                 <ImageHolder>
-                    <img src="jesse3.jpeg" alt="map-img" width="140px" height="140px" style={{borderRadius: "360px", border: "1px solid grey"}} />
+                    <img data-aos="zoom-in" data-aos-duration="2000" src="jesse3.jpeg" alt="map-img" width="140px" height="140px" style={{borderRadius: "360px", border: "1px solid grey"}} />
                 </ImageHolder>
                 <Texttest>Locate Me</Texttest>
             </MapsCard>

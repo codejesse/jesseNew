@@ -60,7 +60,7 @@ export const ProjectLinks = styled.div`
    display: flex;
    flex-direction: row;
    justify-content: space-between;
-   width: 10%;
+   width: 12%;
    & a {
     color: black;
    }

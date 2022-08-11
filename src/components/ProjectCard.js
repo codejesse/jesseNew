@@ -44,12 +44,6 @@ const CardDesc = styled.p`
   margin-top: -1rem;
 `;
 
-// const CardLinks = styled.div`
-//   display: flex;
-//   flex-direction: row;
-//   justify-content: space-around;
-//   width: 30%;
-// `;
 
 //Todo
 //create logic to assign random color to each project card from array:done
@@ -69,7 +63,7 @@ function ProjectCard({ id, title, img, desc, github, live }) {
         <GreenDot />
       </DotTray>
       <CardDetails>
-        <img src={img} alt={title} width="400px"  style={{ marginLeft: "-20px", marginTop: "-50px" }} />
+        <img data-aos="zoom-in" data-aos-duration="2000" src={img} alt={title} width="400px"  style={{ marginLeft: "-20px", marginTop: "-50px" }} />
         <Link style={{ textDecoration: "none", color: "black" }} to={`/project/${id}`}>
           <CardTitle>{title}</CardTitle>
         </Link>

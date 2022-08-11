@@ -39,7 +39,13 @@ export const IntroCardWrapper = styled.div`
 
 const ImageWrapper = styled.div`
    width: 50%;
-   /* */
+`;
+
+const NameText = styled.span`
+  font-size: 1.4rem;
+  font-family: "Open sans", sans-serif;
+  font-style: oblique;
+  color: black;
 `;
 
 const TextWrapper = styled.div`
@@ -47,6 +53,7 @@ const TextWrapper = styled.div`
    height: auto;
    text-align: left;
    padding: 1rem;
+   margin-top: -1rem;
    @media (max-width: 500px) {
     width: 100%;
    }
@@ -117,10 +124,9 @@ function IntroCard() {
         </DotTray>
         <ImageWrapper><img src='img-3.png' alt='img-1' /></ImageWrapper>
         <TextWrapper>
-          <IntroText>Hi i'm Jesse Beke a Front-End
-            developer interested in Animations,
-            product design. I work with Reactjs,
-            React Native, TypeScript, Gsap.</IntroText>
+          <IntroText>Hi i'm <NameText>Jesse Beke</NameText> a Front-End
+            developer interested in Animations, and UI/UX. I work with Reactjs,
+            React Native, TypeScript, to create stunning apps.</IntroText>
         </TextWrapper>
       </IntroCardWrapper>
       <SpotifyCard />

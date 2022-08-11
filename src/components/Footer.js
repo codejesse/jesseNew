@@ -66,6 +66,9 @@ const SocialWrapper = styled.div`
    justify-content: space-around;
    width: 40%;
    margin-top: -20px;
+   & a  {
+    color: black;
+   }
 `;
 
 
@@ -73,7 +76,7 @@ function Footer() {
     useEffect(() => {
         AOS.init();
         AOS.refresh();
-      }, []);
+    }, []);
     return (
         <FooterWrapper>
             <FooterCard data-aos="zoom-in-up" data-aos-duration="1000">
@@ -87,9 +90,9 @@ function Footer() {
                     <FooterRight>
                         <FooterHeader>Shooooo🥷🏾t me a message!</FooterHeader>
                         <SocialWrapper>
-                            <FaGithub size={30}/>
-                            <FaTwitter size={30}/>
-                            <FaEnvelope size={30}/>
+                            <a href="https://github.com/codejesse/" target="_blank" rel="noreferrer"><FaGithub size={30} /></a>
+                            <a href="https://twitter.com/jessebeke" target="_blank" rel="noreferrer"><FaTwitter size={30} /></a>
+                            <a href="mailto:jessebeke10@gmail.com" target="_blank" rel="noreferrer"><FaEnvelope size={30} /></a>
                         </SocialWrapper>
                     </FooterRight>
                 </FooterDetails>

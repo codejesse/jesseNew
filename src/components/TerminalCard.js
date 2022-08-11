@@ -44,7 +44,7 @@ function TerminalCard() {
             <AboutText>Last login: {Time.toDateString()}</AboutText>
             <AboutText>client@Jesse ~ % Hello 👋🏾 i'm Jesse an intermediate
                 Front-End developer based in Nigeria, i am skilled with web technologies
-                such as HTML, CSS, javaScript-Es6, Reactjs, TypeScript, Nodejs, styled-components.</AboutText>
+                such as HTML, CSS, javaScript-Es6, Reactjs, TypeScript, TailwindCSS, Nodejs, styled-components.</AboutText>
         </TerminalCardWrapper>
     )
 }

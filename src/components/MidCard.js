@@ -43,6 +43,7 @@ const BlogHeaderText = styled.h3`
    font-family: sans-serif;
    margin: 10px;
    text-overflow: ellipsis;
+   color: black;
 `;
 
 const BlogCard = styled.div`
@@ -83,11 +84,11 @@ function MidCard() {
           <GreenDot />
         </DotTray>
         <BlogWrapper>
-          {Blogs && Blogs.map((posts, id) => {
+          {Blogs && Blogs.map((posts, id) => (
             <BlogCard key={id}>
               <BlogHeaderText>{posts.description}</BlogHeaderText>
             </BlogCard>
-          })}
+          ))}
           <BlogCard></BlogCard>
         </BlogWrapper>
       </StatsCard>
