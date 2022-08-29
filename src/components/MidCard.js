@@ -29,6 +29,7 @@ const StatsCard = styled.div`
    @media (max-width: 1200px) {
     background-image: none;
     width: 100%;
+    height: auto;
     margin-bottom: 2rem;
   }
 `;
@@ -37,6 +38,9 @@ const BlogWrapper = styled.div`
   display: flex;
   flex-direction: row;
   padding: 10px;
+  @media (max-width: 1200px) {
+    flex-direction: column;
+  }
 `;
 
 const BlogHeaderText = styled.h3`
@@ -56,6 +60,9 @@ const BlogCard = styled.div`
    /* box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
    border-radius: 15px; */
    border: 2px solid #EDEDED;
+   @media (max-width: 1200px) {
+    margin-bottom: 1rem;
+   }
 `;
 
 const BlogImage = styled.div`
