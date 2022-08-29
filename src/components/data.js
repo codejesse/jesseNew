@@ -31,6 +31,15 @@ const ProjectsData = [
         "details": "GetDone is a kanban productivity application made with Reactjs, TailwindCSS and LocalStorage that allows the user create a to-do task and drag and drop them in their current working phases. I learned how to use TailwindCSS in a functional React application",
         "github": "https://github.com/codejesse/GetDone",
         "live": "https://getdone-beta.vercel.app/"
+    },
+    {
+        "id": 4,
+        "title": "Shoppy™",
+        "img": "/Shoppy.png",
+        "desc": "E-commerce application made with Reactjs and React-Redux",
+        "details": "Shoppy™ is a simple e-commerce application made with Reactjs, Redux and Fakestore Api, designed and developed by me i learned how the Redux eco-sytems works and why it is something that works for advanced state management for Reactjs applications i learned a lot on this one.",
+        "github": "https://github.com/codejesse/shoppy",
+        "live": "https://shoppy-ashy.vercel.app/"
     }
 ]
 

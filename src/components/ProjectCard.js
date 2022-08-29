@@ -15,6 +15,7 @@ const CardContainer = styled.div`
    border: 1px solid #B1B1B1;
    box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.1);
    border-radius: 20px;
+   margin-bottom: 1.5rem;
    @media (max-width: 900px) {
     width: 100%;
     margin-bottom: 2rem;
