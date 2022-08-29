@@ -93,7 +93,7 @@ function MidCard() {
           {Blogs && Blogs.map((posts, id) => (
             <BlogCard key={id}>
               <BlogImage><img src={posts.social_image} alt={posts.title} width="250px" style={{borderRadius: "11px", width: "300px"}}/></BlogImage>
-              <BlogHeaderText>{posts.description}</BlogHeaderText>
+              <BlogHeaderText><a href={posts.url} style={{textDecoration: "none"}}>{posts.description}</a></BlogHeaderText>
             </BlogCard>
           ))}
         </BlogWrapper>
