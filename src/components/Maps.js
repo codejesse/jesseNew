@@ -39,12 +39,12 @@ function Maps() {
     }, []);
     return (
         <MapsWrapper>
-            <MapsCard data-aos="fade-down" data-aos-duration="1000">
+            <a href="https://drive.google.com/file/d/1VhGwNVVZq4hRF-3byhGzKlwCSx0yqN5p/view?usp=sharing" style={{ textDecoration: "none" }}><MapsCard data-aos="fade-down" data-aos-duration="1000">
                 <ImageHolder>
-                    <img data-aos="zoom-in" data-aos-duration="2000" src="jesse3.jpeg" alt="map-img" width="140px" height="140px" style={{borderRadius: "360px", border: "1px solid grey"}} />
+                    <img data-aos="zoom-in" data-aos-duration="2000" src="jesse3.jpeg" alt="map-img" width="140px" height="140px" style={{ borderRadius: "360px", border: "1px solid grey" }} />
                 </ImageHolder>
-                <Texttest>Locate Me</Texttest>
-            </MapsCard>
+                <Texttest>View Resume</Texttest>
+            </MapsCard></a>
         </MapsWrapper>
     )
 }

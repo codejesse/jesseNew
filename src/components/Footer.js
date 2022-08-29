@@ -24,14 +24,15 @@ const FooterCard = styled.div`
    width: 60%;
    height: auto;
    background: #FFFFFF;
-   background-image: url("/vector2.png");
+   background-image: url("/Wavy.png");
    background-repeat: no-repeat;
-   background-position: right;
-   background-position-y: -1rem;
-   border: 1px solid #B1B1B1;
-   box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.1);
-   border-radius: 20px;
+   background-position: center;
+   /* border: 1px solid #B1B1B1;
+   box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.1); */
+   background-color: #6610F2;
+   border-radius: 60px;
    margin-left: 1rem;
+   color: #FFFFFF;
    @media (max-width: 800px) {
     width: 95%;
     margin: 10px;
@@ -57,7 +58,8 @@ const FooterHeader = styled.h2`
    font-family: "Open sans", sans-serif;
    font-style: italic;
    font-weight: 700;
-   font-size: 2rem;
+   font-size: 40px;
+   width: 100%;
 `;
 
 const SocialWrapper = styled.div`
@@ -80,19 +82,14 @@ function Footer() {
     return (
         <FooterWrapper>
             <FooterCard data-aos="zoom-in-up" data-aos-duration="1000">
-                <DotTray>
-                    <RedDot />
-                    <YellowDot />
-                    <GreenDot />
-                </DotTray>
                 <FooterDetails>
-                    <img src="jesse1.png" width="200px" alt="footer-pic" />
+                    <img src="/Reach-out.png" width="200px" alt="footer-pic" />
                     <FooterRight>
-                        <FooterHeader>Shooooo🥷🏾t me a message!</FooterHeader>
+                        <FooterHeader>Feel free to reach out</FooterHeader>
                         <SocialWrapper>
-                            <a href="https://github.com/codejesse/" target="_blank" rel="noreferrer"><FaGithub size={30} /></a>
-                            <a href="https://twitter.com/jessebeke" target="_blank" rel="noreferrer"><FaTwitter size={30} /></a>
-                            <a href="mailto:jessebeke10@gmail.com" target="_blank" rel="noreferrer"><FaEnvelope size={30} /></a>
+                            <a href="https://github.com/codejesse/" target="_blank" rel="noreferrer"><FaGithub size={30} color="white"/></a>
+                            <a href="https://twitter.com/jessebeke" target="_blank" rel="noreferrer"><FaTwitter size={30} color="white" /></a>
+                            <a href="mailto:jessebeke10@gmail.com" target="_blank" rel="noreferrer"><FaEnvelope size={30} color="white" /></a>
                         </SocialWrapper>
                     </FooterRight>
                 </FooterDetails>

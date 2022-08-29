@@ -66,7 +66,7 @@ function BottomNav() {
                 <img title='Terminal' src="/Terminal.png" alt="finder-icon" width="80px" height="80px" />
                 <img title='Voiceme' src="/img1.png" alt="-icon" width="90px" height="80px" />
                 <img title='Mail' src="/Mail.png" alt="mail-icon" width="80px" height="80px" />
-                <img title='Message' src="/Spotify.png" alt="spotify-icon" width="80px" height="80px" />
+                <img title='Message' src="/Github.png" alt="spotify-icon" width="70px" height="70px" />
             </BottomNavWrapper>
         </BottomNavContainer>
     )

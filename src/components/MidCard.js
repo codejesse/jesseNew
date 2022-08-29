@@ -40,20 +40,26 @@ const BlogWrapper = styled.div`
 `;
 
 const BlogHeaderText = styled.h3`
-   font-family: sans-serif;
+   font-family: "Open sans",sans-serif;
    margin: 10px;
    text-overflow: ellipsis;
    color: black;
+   font-size: 15px;
 `;
 
 const BlogCard = styled.div`
-   width: 262.31px;
+   width: fit-content;
    height: 250px;
-   border-radius: 16px;
+   border-radius: 10px;
    /* border: 1px solid black; */
    margin-right: 5px;
-   box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
-   border-radius: 15px;
+   /* box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
+   border-radius: 15px; */
+   border: 2px solid #EDEDED;
+`;
+
+const BlogImage = styled.div`
+   width: 220px;
 `;
 
 
@@ -86,10 +92,10 @@ function MidCard() {
         <BlogWrapper>
           {Blogs && Blogs.map((posts, id) => (
             <BlogCard key={id}>
+              <BlogImage><img src={posts.social_image} alt={posts.title} width="250px" style={{borderRadius: "11px", width: "300px"}}/></BlogImage>
               <BlogHeaderText>{posts.description}</BlogHeaderText>
             </BlogCard>
           ))}
-          <BlogCard></BlogCard>
         </BlogWrapper>
       </StatsCard>
     </MidCardContainer>
