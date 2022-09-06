@@ -24,7 +24,7 @@ const FooterCard = styled.div`
    width: 60%;
    height: auto;
    background: #FFFFFF;
-   background-image: url("/Wavy.png");
+   background-image: url("/wavy.png");
    background-repeat: no-repeat;
    background-position: center;
    /* border: 1px solid #B1B1B1;
