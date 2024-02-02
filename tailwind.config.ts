@@ -11,6 +11,7 @@ const config: Config = {
       animation: {
         flip: "flip 6s infinite steps(2, end)",
         rotate: "rotate 3s linear infinite both",
+        "infinite-scroll": "infinite-scroll 25s linear infinite",
       },
       keyframes: {
         flip: {
@@ -22,6 +23,10 @@ const config: Config = {
           to: {
             transform: "rotate(90deg)",
           },
+        },
+        "infinite-scroll": {
+          from: { transform: "translateX(0)" },
+          to: { transform: "translateX(-100%)" },
         },
       },
     },

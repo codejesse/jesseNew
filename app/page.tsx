@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Skills from "./components/skills";
 
 export default function Home() {
   return (
@@ -26,13 +27,14 @@ export default function Home() {
           ✨ Read more about my new SaaS
         </span>
       </button>
-      <h1 className="text-5xl font-semibold">I&apos;m Jesse</h1>
+      <h1 className="text-7xl font-semibold">I&apos;m Jesse Beke</h1>
       <p className="w-[80%] lg:w-[50%] text-center text-[#6A6A6A]">
         I&apos;m a frontend engineer. I work with the React Ecosystem and I also
         create content around Javascript, React, Next JS and Typescript.
       </p>
+      <Skills />
       <div className="absolute top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
-      <h1 className="mb-3 text-5xl font-semibold">Under construction 🚧</h1>
+      <h1 className="bottom-0 mb-3 text-5xl font-semibold">Under construction 🚧</h1>
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left"></div>
     </main>
   );
