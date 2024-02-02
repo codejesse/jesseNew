@@ -21,12 +21,12 @@ export default function Home() {
         </span>
         <span className="backdrop absolute inset-[1px] rounded-full bg-neutral-950 transition-colors duration-200 group-hover:bg-neutral-800" />
         <span className="z-10 py-0.5 text-sm text-neutral-100">
-          ✨ hello there
+          ✨ Read more about my new SaaS
         </span>
       </button>
-      <h1 className="mb-3 text-5xl font-semibold">I'm Jesse</h1>
-      <p className="w-[80%] lg:w-[50%] text-center">
-        I'm a frontend engineer. I work with the React Ecosystem and I also
+      <h1 className="text-5xl font-semibold">I&apos;m Jesse</h1>
+      <p className="w-[80%] lg:w-[50%] text-center text-[#6A6A6A]">
+        I&apos;m a frontend engineer. I work with the React Ecosystem and I also
         create content around Javascript, React, Next JS and Typescript.
       </p>
       <div className="absolute top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
