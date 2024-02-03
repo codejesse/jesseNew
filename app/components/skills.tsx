@@ -2,7 +2,7 @@ import React from "react";
 
 const Skills = () => {
   return (
-    <div className="w-full max-w-5xl mx-auto px-2 md:px-6 py-24">
+    <div className="w-full max-w-5xl mx-auto px-2 md:px-6 py-10">
       <div className="text-center">
         <div
           x-data="{}"
@@ -15,7 +15,7 @@ const Skills = () => {
         >
           <ul
             x-ref="logos"
-            className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll"
+            className="flex items-center text-white justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll"
           >
             <li>Reactjs</li>
             <li>javascript</li>

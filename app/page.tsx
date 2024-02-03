@@ -4,13 +4,13 @@ import Skills from "./components/skills";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center gap-4 p-24">
-      <div className="fixed top-0 lg:top-14 z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <div className="left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-full lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
+      <div className="fixed top-0 lg:top-14 z-10 max-w-5xl w-full items-center justify-between font-syne text-sm lg:flex">
+        <div className="left-0 top-0 flex w-full justify-center border-b border-gray-600 pb-6 pt-8 backdrop-blur-sm bg-white/10 lg:static lg:w-auto  lg:rounded-full lg:border lg:p-3">
           <Image src="/Jesse-1.svg" alt="jesse" width={40} height={40} />
-          <h1 className="text-center lg:m-auto p-2">Jesse Beke</h1>
+          <h1 className="text-center lg:m-auto p-2 text-white">Jesse Beke</h1>
         </div>
         {/* for icons in nav */}
-        <div className="flex flex-row gap-4">
+        <div className="flex flex-row gap-4 text-white">
           <p>icon</p>
           <p>icon</p>
           <p>icon</p>
@@ -27,14 +27,18 @@ export default function Home() {
           ✨ Read more about my new SaaS
         </span>
       </button>
-      <h1 className="text-7xl font-semibold">I&apos;m Jesse Beke</h1>
-      <p className="w-[80%] lg:w-[50%] text-center text-[#6A6A6A]">
-        I&apos;m a frontend engineer. I work with the React Ecosystem and I also
+      <h1 className="text-4xl lg:text-7xl font-semibold text-white">I&apos;m Jesse Beke</h1>
+      <p className="w-[100%] md:w-[80%] lg:w-[50%] text-[15px] lg:text-[18px] text-center text-[#6A6A6A]">
+        Budding frontend engineer. I work with the React Ecosystem and I also
         create content around Javascript, React, Next JS and Typescript.
       </p>
+      <div className="flex flex-row">
+        <button>Get in touch</button>
+        <button>view resume</button>
+      </div>
       <Skills />
-      <div className="absolute top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
-      <h1 className="bottom-0 mb-3 text-5xl font-semibold">Under construction 🚧</h1>
+      <div className="absolute pb-20 top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
+      <h1 className="bottom-0 mb-3 text-5xl font-semibold text-white">Featured projects 🚧</h1>
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left"></div>
     </main>
   );
