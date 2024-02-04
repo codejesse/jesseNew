@@ -1,5 +1,8 @@
 import Image from "next/image";
 import Skills from "./components/skills";
+import { GitHubIcon } from "./icons/Github";
+import { LinkedInIcon } from "./icons/LinkedIn";
+import { XIcon } from "./icons/XIcon";
 
 
 export default function Home() {
@@ -17,7 +20,9 @@ export default function Home() {
             </div>
             {/* for icons in nav */}
             <div className="hidden lg:flex flex-row gap-4 text-white">
-              <p>icon</p>
+              <GitHubIcon className="w-10 my-auto text-white" />
+              <LinkedInIcon className="w-6 text-white" />
+              <XIcon className="w-5 ml-2 text-white"  />
               <p>icon</p>
               <p>icon</p>
             </div>
