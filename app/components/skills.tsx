@@ -2,6 +2,8 @@ import React from "react";
 import { ReactIcon } from "../icons/ReactIcon";
 import { JsIcon } from "../icons/JsIcon";
 import { NextIcon } from "../icons/NextIcon";
+import { HtmlIcon } from "../icons/HtmlIcon";
+import { CssIcon } from "../icons/CssIcon";
 
 const Skills = () => {
   return (
@@ -33,9 +35,11 @@ const Skills = () => {
               Nextjs
             </li>
             <li className="flex font-medium group ml-5 cursor-pointer hover:border-white  transition-all duration-500 rounded-full border px-4 py-[7px] items-center gap-2">
+              <HtmlIcon className="w-6 text-white" />
               HTML
             </li>
             <li className="flex font-medium group ml-5 cursor-pointer hover:border-white  transition-all duration-500 rounded-full border px-4 py-[7px] items-center gap-2">
+              <CssIcon className="w-6 text-white" />
               CSS
             </li>
             <li className="flex font-medium group ml-5 cursor-pointer hover:border-white  transition-all duration-500 rounded-full border px-4 py-[7px] items-center gap-2">
@@ -66,9 +70,11 @@ const Skills = () => {
               Nextjs
             </li>
             <li className="flex font-medium group ml-5 cursor-pointer hover:border-white transition-all duration-500 rounded-full border px-4 py-[7px] items-center gap-2">
+              <HtmlIcon className="w-6 text-white" />
               HTML
             </li>
             <li className="flex font-medium group ml-5 cursor-pointer hover:border-white transition-all duration-500 rounded-full border px-4 py-[7px] items-center gap-2">
+              <CssIcon className="w-6 text-white" />
               CSS
             </li>
             <li className="flex font-medium group ml-5 cursor-pointer hover:border-white transition-all duration-500 rounded-full border px-4 py-[7px] items-center gap-2">
