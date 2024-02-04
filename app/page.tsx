@@ -21,10 +21,8 @@ export default function Home() {
             {/* for icons in nav */}
             <div className="hidden lg:flex flex-row gap-4 text-white">
               <GitHubIcon className="w-10 my-auto text-white" />
-              <LinkedInIcon className="w-6 text-white" />
-              <XIcon className="w-5 ml-2 text-white"  />
-              <p>icon</p>
-              <p>icon</p>
+              <LinkedInIcon className="w-6 my-auto text-white" />
+              <XIcon className="w-5 ml-2 my-auto text-white"  />
             </div>
           </div>
         </div>
