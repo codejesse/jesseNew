@@ -90,7 +90,7 @@ export default function Home() {
           </button>
         </div>
         <Skills />
-        <h1 className="mb-3 text-5xl font-semibold text-white">
+        <h1 className="hidden mb-3 text-5xl font-semibold text-white">
           Featured projects 🚧
         </h1>
       </div>
