@@ -1,6 +1,7 @@
 import React from "react";
 import { ReactIcon } from "../icons/ReactIcon";
 import { JsIcon } from "../icons/JsIcon";
+import { NextIcon } from "../icons/NextIcon";
 
 const Skills = () => {
   return (
@@ -25,16 +26,17 @@ const Skills = () => {
             </li>
             <li className="flex font-medium group ml-5 cursor-pointer hover:border-white  transition-all duration-500 rounded-full border px-4 py-[7px] items-center gap-2">
               <JsIcon className="w-6 text-white" />
-              Javascript
+              JavaScript
             </li>
             <li className="flex font-medium group ml-5 cursor-pointer hover:border-white  transition-all duration-500 rounded-full border px-4 py-[7px] items-center gap-2">
+              <NextIcon className="w-6 text-white" />
               Nextjs
             </li>
             <li className="flex font-medium group ml-5 cursor-pointer hover:border-white  transition-all duration-500 rounded-full border px-4 py-[7px] items-center gap-2">
-              Html
+              HTML
             </li>
             <li className="flex font-medium group ml-5 cursor-pointer hover:border-white  transition-all duration-500 rounded-full border px-4 py-[7px] items-center gap-2">
-              Css
+              CSS
             </li>
             <li className="flex font-medium group ml-5 cursor-pointer hover:border-white  transition-all duration-500 rounded-full border px-4 py-[7px] items-center gap-2">
               Postgresql
@@ -60,13 +62,14 @@ const Skills = () => {
               Javascript
             </li>
             <li className="flex font-medium group ml-5 cursor-pointer hover:border-white transition-all duration-500 rounded-full border px-4 py-[7px] items-center gap-2">
+              <NextIcon className="w-6 text-white" />
               Nextjs
             </li>
             <li className="flex font-medium group ml-5 cursor-pointer hover:border-white transition-all duration-500 rounded-full border px-4 py-[7px] items-center gap-2">
-              Html
+              HTML
             </li>
             <li className="flex font-medium group ml-5 cursor-pointer hover:border-white transition-all duration-500 rounded-full border px-4 py-[7px] items-center gap-2">
-              Css
+              CSS
             </li>
             <li className="flex font-medium group ml-5 cursor-pointer hover:border-white transition-all duration-500 rounded-full border px-4 py-[7px] items-center gap-2">
               Postgresql
