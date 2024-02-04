@@ -4,7 +4,6 @@ import { GitHubIcon } from "./icons/Github";
 import { LinkedInIcon } from "./icons/LinkedIn";
 import { XIcon } from "./icons/XIcon";
 
-
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center gap-4 p-24">
@@ -17,12 +16,17 @@ export default function Home() {
               <h1 className="text-center lg:m-auto p-2 text-white">
                 Jesse Beke
               </h1>
+              <div className="flex flex-row gap-2 lg:hidden">
+                <GitHubIcon className="w-10 my-auto text-white" />
+                <LinkedInIcon className="w-6 my-auto text-white" />
+                <XIcon className="w-5 ml-2 my-auto text-white" />
+              </div>
             </div>
             {/* for icons in nav */}
             <div className="hidden lg:flex flex-row gap-4 text-white">
               <GitHubIcon className="w-10 my-auto text-white" />
               <LinkedInIcon className="w-6 my-auto text-white" />
-              <XIcon className="w-5 ml-2 my-auto text-white"  />
+              <XIcon className="w-5 ml-2 my-auto text-white" />
             </div>
           </div>
         </div>
