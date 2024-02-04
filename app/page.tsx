@@ -7,7 +7,7 @@ import { XIcon } from "./icons/XIcon";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center gap-4 p-24">
-      <div className="absolute pb-20 top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]">
+      <div className="absolute pb-20 top-0 h-fit w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]">
         {/* fixing alignments */}
         <div className="flex justify-center">
           <div className="fixed top-0 lg:top-14 z-10 max-w-5xl w-full items-center justify-between font-syne text-sm lg:flex">
@@ -90,12 +90,13 @@ export default function Home() {
           </button>
         </div>
         <Skills />
-        <h1 className="hidden mb-3 text-5xl font-semibold text-white">
-          Featured projects 🚧
+        <h1 className="outline-text text-[60px] mt-20 text-white font-semibold flex justify-center text-center">
+          Projects
         </h1>
+        {/* project card */}
+        <div className="p-10 text-white border border-grey-600 m-10 lg:m-40 lg:mt-[10px] py-5 md:py-10 px-5 rounded-lg flex flex-col items-stretch justify-center flex-wrap gap-10">
+        </div>
       </div>
-      {/* <div className="absolute pb-20 top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div> */}
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left"></div>
     </main>
   );
 }
