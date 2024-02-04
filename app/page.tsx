@@ -8,7 +8,7 @@ export default function Home() {
         {/* fixing alignments */}
         <div className="flex justify-center">
           <div className="fixed top-0 lg:top-14 z-10 max-w-5xl w-full items-center justify-between font-syne text-sm lg:flex">
-            <div className="left-0 top-0 flex w-full justify-center border-b border-gray-600 pb-6 pt-8 backdrop-blur-sm bg-white/10 lg:static lg:w-auto  lg:rounded-full lg:border lg:p-3">
+            <div className="left-0 top-0 flex w-full justify-center border-b border-gray-600 pb-4 pt-5 backdrop-blur-sm bg-white/10 lg:static lg:w-auto  lg:rounded-full lg:border lg:p-3">
               <Image src="/Jesse-1.svg" alt="jesse" width={40} height={40} />
               <h1 className="text-center lg:m-auto p-2 text-white">
                 Jesse Beke
@@ -41,7 +41,7 @@ export default function Home() {
         <div className="flex justify-center">
           <p className="w-[80%] md:w-[80%] lg:w-[50%] text-[15px] lg:text-[18px] text-center text-[#6A6A6A]">
             Budding frontend engineer. I work with the React Ecosystem and I
-            also create content around Javascript, React, Next JS and
+            also create content around Javascript, React JS, Next JS and
             Typescript.
           </p>
         </div>
