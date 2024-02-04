@@ -15,7 +15,7 @@ export default function Home() {
               </h1>
             </div>
             {/* for icons in nav */}
-            <div className="flex flex-row gap-4 text-white">
+            <div className="hidden lg:flex flex-row gap-4 text-white">
               <p>icon</p>
               <p>icon</p>
               <p>icon</p>
@@ -35,7 +35,7 @@ export default function Home() {
             </span>
           </button>
         </div>
-        <h1 className="flex justify-center mt-8 text-4xl lg:text-7xl font-semibold text-white">
+        <h1 className="flex justify-center mt-8 mb-3 text-4xl lg:text-7xl font-semibold text-white">
           I&apos;m Jesse Beke
         </h1>
         <div className="flex justify-center">
@@ -45,16 +45,48 @@ export default function Home() {
             Typescript.
           </p>
         </div>
-        <div className="flex flex-row">
-          <button>Get in touch</button>
-          <button>view resume</button>
+        <div className="flex justify-center mt-4 flex-row">
+          <button className="rounded-md text-sm transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 border bg-white text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 rounded-l-full font-semibold flex items-center justify-center gap-2">
+            <svg
+              className="w-6 h-6 text-gray-800 dark:text-white"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeWidth="2"
+                d="m3.5 5.5 7.9 6c.4.3.8.3 1.2 0l7.9-6M4 19h16c.6 0 1-.4 1-1V6c0-.6-.4-1-1-1H4a1 1 0 0 0-1 1v12c0 .6.4 1 1 1Z"
+              />
+            </svg>
+            Get in touch
+          </button>
+          <button className="rounded-md text-sm text-white transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:text-white h-10 px-4 py-2 rounded-r-full font-semibold flex items-center justify-center gap-2">
+            <svg
+              className="w-6 h-6 text-white dark:text-white"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke="currentColor"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M10 3v4c0 .6-.4 1-1 1H5m14-4v16c0 .6-.4 1-1 1H6a1 1 0 0 1-1-1V8c0-.4.1-.6.3-.8l4-4 .6-.2H18c.6 0 1 .4 1 1Z"
+              />
+            </svg>
+            My Resume
+          </button>
         </div>
         <Skills />
+        <h1 className="mb-3 text-5xl font-semibold text-white">
+          Featured projects 🚧
+        </h1>
       </div>
       {/* <div className="absolute pb-20 top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div> */}
-      <h1 className="hidden mb-3 text-5xl font-semibold text-white">
-        Featured projects 🚧
-      </h1>
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left"></div>
     </main>
   );
