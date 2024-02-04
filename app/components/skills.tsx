@@ -1,4 +1,6 @@
 import React from "react";
+import { ReactIcon } from "../icons/ReactIcon";
+import { JsIcon } from "../icons/JsIcon";
 
 const Skills = () => {
   return (
@@ -18,9 +20,11 @@ const Skills = () => {
             className="flex items-center text-white justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll"
           >
             <li className="flex font-medium group ml-5 cursor-pointer hover:border-white  transition-all duration-500 rounded-full border px-4 py-[7px] items-center gap-2">
+              <ReactIcon className="w-6 text-white" />
               Reactjs
             </li>
             <li className="flex font-medium group ml-5 cursor-pointer hover:border-white  transition-all duration-500 rounded-full border px-4 py-[7px] items-center gap-2">
+              <JsIcon className="w-6 text-white" />
               Javascript
             </li>
             <li className="flex font-medium group ml-5 cursor-pointer hover:border-white  transition-all duration-500 rounded-full border px-4 py-[7px] items-center gap-2">
@@ -48,9 +52,11 @@ const Skills = () => {
             aria-hidden="true"
           >
             <li className="flex font-medium group ml-5 cursor-pointer hover:border-white transition-all duration-500 rounded-full border px-4 py-[7px] items-center gap-2">
+              <ReactIcon className="w-6 text-white" />
               Reactjs
             </li>
             <li className="flex font-medium group ml-5 cursor-pointer hover:border-white transition-all duration-500 rounded-full border px-4 py-[7px] items-center gap-2">
+              <JsIcon className="w-6 text-white" />
               Javascript
             </li>
             <li className="flex font-medium group ml-5 cursor-pointer hover:border-white transition-all duration-500 rounded-full border px-4 py-[7px] items-center gap-2">
