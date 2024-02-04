@@ -17,27 +17,60 @@ const Skills = () => {
             x-ref="logos"
             className="flex items-center text-white justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll"
           >
-            <li>Reactjs</li>
-            <li>javascript</li>
-            <li>nextjs</li>
-            <li>html</li>
-            <li>css</li>
-            <li>postgresql</li>
-            <li>firebase</li>
-            <li>tailwindcss</li>
+            <li className="flex font-medium group ml-5 cursor-pointer hover:border-white  transition-all duration-500 rounded-full border px-4 py-[7px] items-center gap-2">
+              Reactjs
+            </li>
+            <li className="flex font-medium group ml-5 cursor-pointer hover:border-white  transition-all duration-500 rounded-full border px-4 py-[7px] items-center gap-2">
+              Javascript
+            </li>
+            <li className="flex font-medium group ml-5 cursor-pointer hover:border-white  transition-all duration-500 rounded-full border px-4 py-[7px] items-center gap-2">
+              Nextjs
+            </li>
+            <li className="flex font-medium group ml-5 cursor-pointer hover:border-white  transition-all duration-500 rounded-full border px-4 py-[7px] items-center gap-2">
+              Html
+            </li>
+            <li className="flex font-medium group ml-5 cursor-pointer hover:border-white  transition-all duration-500 rounded-full border px-4 py-[7px] items-center gap-2">
+              Css
+            </li>
+            <li className="flex font-medium group ml-5 cursor-pointer hover:border-white  transition-all duration-500 rounded-full border px-4 py-[7px] items-center gap-2">
+              Postgresql
+            </li>
+            <li className="flex font-medium group ml-5 cursor-pointer hover:border-white  transition-all duration-500 rounded-full border px-4 py-[7px] items-center gap-2">
+              Firebase
+            </li>
+            <li className="flex font-medium group ml-5 cursor-pointer hover:border-white transition-all duration-500 rounded-full border px-4 py-[7px] items-center gap-2">
+              TailwindCss
+            </li>
           </ul>
           <ul
             x-ref="logos"
-            className="flex items-center text-white justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll" aria-hidden="true"
+            className="flex items-center text-white justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll"
+            aria-hidden="true"
           >
-            <li>Reactjs</li>
-            <li>javascript</li>
-            <li>nextjs</li>
-            <li>html</li>
-            <li>css</li>
-            <li>postgresql</li>
-            <li>firebase</li>
-            <li>tailwindcss</li>
+            <li className="flex font-medium group ml-5 cursor-pointer hover:border-white transition-all duration-500 rounded-full border px-4 py-[7px] items-center gap-2">
+              Reactjs
+            </li>
+            <li className="flex font-medium group ml-5 cursor-pointer hover:border-white transition-all duration-500 rounded-full border px-4 py-[7px] items-center gap-2">
+              Javascript
+            </li>
+            <li className="flex font-medium group ml-5 cursor-pointer hover:border-white transition-all duration-500 rounded-full border px-4 py-[7px] items-center gap-2">
+              Nextjs
+            </li>
+            <li className="flex font-medium group ml-5 cursor-pointer hover:border-white transition-all duration-500 rounded-full border px-4 py-[7px] items-center gap-2">
+              Html
+            </li>
+            <li className="flex font-medium group ml-5 cursor-pointer hover:border-white transition-all duration-500 rounded-full border px-4 py-[7px] items-center gap-2">
+              Css
+            </li>
+            <li className="flex font-medium group ml-5 cursor-pointer hover:border-white transition-all duration-500 rounded-full border px-4 py-[7px] items-center gap-2">
+              Postgresql
+            </li>
+            <li className="flex font-medium group ml-5 cursor-pointer hover:border-white transition-all duration-500 rounded-full border px-4 py-[7px] items-center gap-2">
+              Firebase
+            </li>
+            <li className="flex font-medium group ml-5 cursor-pointer hover:border-white transition-all duration-500 rounded-full border px-4 py-[7px] items-center gap-2">
+              TailwindCss
+            </li>
           </ul>
         </div>
       </div>
