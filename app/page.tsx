@@ -3,6 +3,7 @@ import Skills from "./components/skills";
 import { GitHubIcon } from "./icons/Github";
 import { LinkedInIcon } from "./icons/LinkedIn";
 import { XIcon } from "./icons/XIcon";
+import Card from "./components/Card";
 
 export default function Home() {
   return (
@@ -94,7 +95,9 @@ export default function Home() {
           Projects
         </h1>
         {/* project card */}
-        <div className="p-10 text-white border border-grey-600 m-10 lg:m-40 lg:mt-[10px] py-5 md:py-10 px-5 rounded-lg flex flex-col items-stretch justify-center flex-wrap gap-10">
+        <div className="p-10 text-white border border-grey-600 m-10 lg:m-40 lg:mt-[10px] py-5 md:py-10 px-5 rounded-lg grid grid-cols-1 lg:grid-cols-2 items-stretch justify-center flex-wrap gap-10">
+          <Card />
+          <Card />
         </div>
       </div>
     </main>
