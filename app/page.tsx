@@ -41,7 +41,7 @@ export default function Home() {
             </span>
             <span className="backdrop absolute inset-[1px] rounded-full bg-neutral-950 transition-colors duration-200 group-hover:bg-neutral-800" />
             <span className="z-10 py-0.5 text-sm text-neutral-100">
-              ✨ Read more about my new SaaS
+              ✨ Learn more about my new SaaS
             </span>
           </button>
         </div>
