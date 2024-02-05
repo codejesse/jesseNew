@@ -4,6 +4,9 @@ import { JsIcon } from "../icons/JsIcon";
 import { NextIcon } from "../icons/NextIcon";
 import { HtmlIcon } from "../icons/HtmlIcon";
 import { CssIcon } from "../icons/CssIcon";
+import { PostgreIcon } from "../icons/PostgreIcon";
+import { FirebaseIcon } from "../icons/FirebaseIcon";
+import { TailwindIcon } from "../icons/TailwindIcon";
 
 const Skills = () => {
   return (
@@ -43,13 +46,16 @@ const Skills = () => {
               CSS
             </li>
             <li className="flex font-medium group ml-5 cursor-pointer hover:border-white  transition-all duration-500 rounded-full border px-4 py-[7px] items-center gap-2">
+              <PostgreIcon className="w-6 text-white" />
               Postgresql
             </li>
             <li className="flex font-medium group ml-5 cursor-pointer hover:border-white  transition-all duration-500 rounded-full border px-4 py-[7px] items-center gap-2">
+              <FirebaseIcon className="w-6 text-white" />
               Firebase
             </li>
             <li className="flex font-medium group ml-5 cursor-pointer hover:border-white transition-all duration-500 rounded-full border px-4 py-[7px] items-center gap-2">
-              TailwindCss
+              <TailwindIcon className="w-6 text-white" />
+              TailwindCSS
             </li>
           </ul>
           <ul
@@ -63,7 +69,7 @@ const Skills = () => {
             </li>
             <li className="flex font-medium group ml-5 cursor-pointer hover:border-white transition-all duration-500 rounded-full border px-4 py-[7px] items-center gap-2">
               <JsIcon className="w-6 text-white" />
-              Javascript
+              JavaScript
             </li>
             <li className="flex font-medium group ml-5 cursor-pointer hover:border-white transition-all duration-500 rounded-full border px-4 py-[7px] items-center gap-2">
               <NextIcon className="w-6 text-white" />
@@ -78,13 +84,16 @@ const Skills = () => {
               CSS
             </li>
             <li className="flex font-medium group ml-5 cursor-pointer hover:border-white transition-all duration-500 rounded-full border px-4 py-[7px] items-center gap-2">
+              <PostgreIcon className="w-6 text-white" />
               Postgresql
             </li>
             <li className="flex font-medium group ml-5 cursor-pointer hover:border-white transition-all duration-500 rounded-full border px-4 py-[7px] items-center gap-2">
+              <FirebaseIcon className="w-6 text-white" />
               Firebase
             </li>
             <li className="flex font-medium group ml-5 cursor-pointer hover:border-white transition-all duration-500 rounded-full border px-4 py-[7px] items-center gap-2">
-              TailwindCss
+              <TailwindIcon className="w-6 text-white" />
+              TailwindCSS
             </li>
           </ul>
         </div>
