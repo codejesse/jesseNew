@@ -4,6 +4,7 @@ import { GitHubIcon } from "./icons/Github";
 import { LinkedInIcon } from "./icons/LinkedIn";
 import { XIcon } from "./icons/XIcon";
 import Card from "./components/Card";
+import { GlowLines } from "./components/GlowLines";
 
 export default function Home() {
   return (
@@ -91,7 +92,8 @@ export default function Home() {
           </button>
         </div>
         <Skills />
-        <h1 className="outline-text text-[60px] mt-20 text-white font-semibold flex justify-center text-center">
+        <GlowLines />
+        <h1 className="outline-text text-[60px] mt-4 text-white font-semibold flex justify-center text-center">
           Projects
         </h1>
         {/* project card */}
