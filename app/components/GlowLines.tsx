@@ -6,7 +6,7 @@ const END_GRADIENT_POSITION = 210;
 const MAX_GRADIENT_Y = 216 - 80;
 const GRADIENT_MOVE_INTERVAL = 10;
 const GLOWING_LINE_HEIGHT = 81;
-const GLOW_COLOR = "#494949";
+const GLOW_COLOR = "#5b5b5b";
 
 type SVGLineGlowAnimateProps = {
   movementDelay?: number;
