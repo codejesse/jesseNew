@@ -7,6 +7,7 @@ import { CssIcon } from "../icons/CssIcon";
 import { PostgreIcon } from "../icons/PostgreIcon";
 import { FirebaseIcon } from "../icons/FirebaseIcon";
 import { TailwindIcon } from "../icons/TailwindIcon";
+import { PrismaIcon } from "../icons/PrismaIcon";
 
 const Skills = () => {
   return (
@@ -46,6 +47,10 @@ const Skills = () => {
               CSS
             </li>
             <li className="flex font-medium group ml-5 cursor-pointer hover:border-white  transition-all duration-500 rounded-full border px-4 py-[7px] items-center gap-2">
+              <PrismaIcon className="w-6 text-white" />
+              Prisma
+            </li>
+            <li className="flex font-medium group ml-5 cursor-pointer hover:border-white  transition-all duration-500 rounded-full border px-4 py-[7px] items-center gap-2">
               <PostgreIcon className="w-6 text-white" />
               Postgresql
             </li>
@@ -82,6 +87,10 @@ const Skills = () => {
             <li className="flex font-medium group ml-5 cursor-pointer hover:border-white transition-all duration-500 rounded-full border px-4 py-[7px] items-center gap-2">
               <CssIcon className="w-6 text-white" />
               CSS
+            </li>
+            <li className="flex font-medium group ml-5 cursor-pointer hover:border-white  transition-all duration-500 rounded-full border px-4 py-[7px] items-center gap-2">
+              <PrismaIcon className="w-6 text-white" />
+              Prisma
             </li>
             <li className="flex font-medium group ml-5 cursor-pointer hover:border-white transition-all duration-500 rounded-full border px-4 py-[7px] items-center gap-2">
               <PostgreIcon className="w-6 text-white" />
