@@ -4,8 +4,8 @@ import { GitHubIcon } from "../icons/Github";
 
 const Card = () => {
   return (
-    <span className="w-full">
-      <div className="border border-[#e5e7eb] flex flex-col w-full md:max-w-[500px] rounded-lg">
+    <span>
+      <div className="border flex-1 md:max-w-[500px] rounded-lg">
         <Image src="" alt="" width="500" height="40" />
         <div className="p-3 md:p-5">
           <div className="pb-5 flex justify-between items-center">
