@@ -92,6 +92,7 @@ export default function Home() {
           </button>
         </div>
         <Skills />
+        {/* <Skills /> */}
         <GlowLines />
         <h1 className="outline-text text-[60px] lg:text-[90px] mt-4 text-white font-semibold flex justify-center text-center">
           Projects
