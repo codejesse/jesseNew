@@ -31,12 +31,12 @@ const Card = () => {
           </div>
           {/* links */}
           <div className="flex mt-2 items-center gap-5">
-            <span className="flex flex-row">
-              <a href="">
+            <a href="">
+              <span className="flex flex-row">
                 <GitHubIcon className="text-white w-8" />
-              </a>
-              <p className="text-white text-sm my-auto">Github</p>
-            </span>
+                <p className="text-white text-sm my-auto">Github</p>
+              </span>
+            </a>
           </div>
         </div>
       </div>
