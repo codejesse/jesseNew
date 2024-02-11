@@ -1,10 +1,11 @@
 import React from "react";
 import Image from "next/image";
+import { GitHubIcon } from "../icons/Github";
 
 const Card = () => {
   return (
     <span>
-      <div className="border flex-1 md:max-w-[500px] w-full rounded-lg">
+      <div className="border border-[#e5e7eb] flex-1 md:max-w-[500px] w-full rounded-lg">
         <Image src="" alt="" width="500" height="40" />
         <div className="p-3 md:p-5">
           <div className="pb-5 flex justify-between items-center">
@@ -23,7 +24,20 @@ const Card = () => {
             and learn from high-quality tech and programming articles or even
             start their own blog.
           </p>
-          <span className="border text-sm">Reactjs</span>
+          <div className="py-5 flex items-center flex-wrap gap-1 overflow-hidden">
+            <span className="bg-[#222222] border bg-transparent text-white rounded-full px-3 py-1 text-xs">
+              Reactjs
+            </span>
+          </div>
+          {/* links */}
+          <div className="flex mt-2 items-center gap-5">
+            <span className="flex flex-row">
+              <a href="">
+                <GitHubIcon className="text-white w-8" />
+              </a>
+              <p className="text-white text-sm my-auto">Github</p>
+            </span>
+          </div>
         </div>
       </div>
     </span>
