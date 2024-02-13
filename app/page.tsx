@@ -5,6 +5,7 @@ import { LinkedInIcon } from "./icons/LinkedIn";
 import { XIcon } from "./icons/XIcon";
 import Card from "./components/Card";
 import { GlowLines } from "./components/GlowLines";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -101,6 +102,9 @@ export default function Home() {
         <div className="border w-full py-5 md:py-10 px-5 rounded-lg flex items-stretch justify-center flex-wrap gap-10">
           <Card />
           <Card />
+        </div>
+        <div>
+          <Footer />
         </div>
       </div>
     </main>
