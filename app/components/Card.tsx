@@ -2,11 +2,15 @@ import React from "react";
 import Image from "next/image";
 import { GitHubIcon } from "../icons/Github";
 
+//temportary import:
+import Quid from "../../public/Quid.svg";
+
 const Card = () => {
   return (
     // <div className="border border-red-500 w-full">
       <div className="border flex-1 w-full md:max-w-[500px] rounded-lg">
-        <Image src="" alt="" width="500" height="40" />
+        {/* <Image className="rounded-t-lg" src="https://res.cloudinary.com/daiio9iqt/image/upload/v1708240741/projects/wildflour1_sqeatd.svg" alt="" width="500" height="40" /> */}
+        <Image className="rounded-t-lg" src={Quid} alt="" width="500" height="40" />
         <div className="p-3 md:p-5">
           <div className="pb-5 flex justify-between items-center">
             <h3 className="text- text-white">Draft</h3>

@@ -3,10 +3,12 @@ import { GitHubIcon } from "../icons/Github";
 import { LinkedInIcon } from "../icons/LinkedIn";
 import { XIcon } from "../icons/XIcon";
 
+// work on footer
+// use this https://dribbble.com/shots/23531329-kawsar-design-2024
 const Footer = () => {
   return (
-    <div className="flex justify-center mt-8 p-8">
-      <div className="text-ceneter p-8 text-gray-500 text-sm lg:text-md">
+    <div className="flex justify-center mt-10 p-4">
+      <div className="text-ceneter p-4 text-gray-500 text-sm lg:text-md">
         ©2024 Jesse Beke • All Rights Reserved.
       </div>
       <div className="hidden flex-row gap-2">

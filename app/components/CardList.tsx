@@ -1,13 +1,11 @@
 import React from 'react'
-
-interface projectProps {
-    name: string,
-    img?: string,
-}
+import { projects } from '../data/projects'
 
 const CardList = () => {
   return (
-    <div>CardList</div>
+    <div>{projects.map((id, project) => (
+      <h1>{}</h1>
+    ))}</div>
   )
 }
 
