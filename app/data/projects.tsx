@@ -1,16 +1,26 @@
-export const projects = [ 
-    {
-        "id": 1,
-        "name": "Draft",
-        "img_url": "https://res.cloudinary.com/daiio9iqt/image/upload/v1708240741/projects/wildflour1_sqeatd.svg",
-        "desc": "",
-        "links": []
-    },
-    {
-        "id": 2,
-        "name": "wildflour",
-        "img_url": "",
-        "desc": "",
-        "links": []
-    }
-]
+export interface Project {
+  projectName: string;
+  imgUrl: string;
+  desc: string;
+  gitLink: string;
+  link: string;
+}
+
+const projects: Project[] = [
+  {
+    projectName: "Draft",
+    imgUrl: "",
+    desc: "",
+    gitLink: "",
+    link: "",
+  },
+  {
+    projectName: "Quid",
+    imgUrl: "",
+    desc: "",
+    gitLink: "",
+    link: "",
+  },
+];
+
+export default projects;

@@ -99,9 +99,9 @@ export default function Home() {
           Projects
         </h1>
         {/* project card */}
-        <div className="border w-full py-5 md:py-10 px-5 rounded-lg flex items-stretch justify-center flex-wrap gap-10">
+        <div className="border flex flex-wrap gap-10 justify-center w-full py-5 md:py-10 px-5 rounded-lg">
           <Card />
-          <Card />
+          {/* <Card /> */}
         </div>
         <div>
           <Footer />
