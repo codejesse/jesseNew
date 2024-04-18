@@ -52,7 +52,7 @@ export default function ModalMessage() {
                   <div className="mt-2">
                     <p className="text-sm text-gray-500">
                       Hey 👋🏾 just to let you know i&apos;m still updating somethings, some links might be broken
-                      just check out my <a className="text-white underline" target="_blank" href="https://twitter.com/jessebeke">X(formerly twitter) profile</a> for what i&apos;m working on currently.
+                      just check out my <a className="text-white underline" target="_blank" href="https://twitter.com/jessebeke">X(formerly twitter)</a> for what i&apos;m working on currently.
                     </p>
                   </div>
 
