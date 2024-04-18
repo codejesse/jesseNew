@@ -24,13 +24,25 @@ export default function Home() {
                 Jesse Beke
               </h1>
               <div className="flex flex-row gap-2 lg:hidden">
-                <a className="m-auto" target="_blank" href="https://github.com/codejesse">
+                <a
+                  className="m-auto"
+                  target="_blank"
+                  href="https://github.com/codejesse"
+                >
                   <GitHubIcon className="w-10 my-auto text-white" />
                 </a>
-                <a className="m-auto" target="_blank" href="https://www.linkedin.com/in/jesse-beke/">
+                <a
+                  className="m-auto"
+                  target="_blank"
+                  href="https://www.linkedin.com/in/jesse-beke/"
+                >
                   <LinkedInIcon className="w-6 my-auto text-white" />
                 </a>
-                <a className="m-auto" target="_blank" href="https://twitter.com/jessebeke">
+                <a
+                  className="m-auto"
+                  target="_blank"
+                  href="https://twitter.com/jessebeke"
+                >
                   <XIcon className="w-5 ml-2 my-auto text-white" />
                 </a>
               </div>
@@ -40,10 +52,18 @@ export default function Home() {
               <a target="_blank" href="https://github.com/codejesse">
                 <GitHubIcon className="w-10 my-auto text-white" />
               </a>
-              <a target="_blank" className="m-auto" href="https://www.linkedin.com/in/jesse-beke/">
+              <a
+                target="_blank"
+                className="m-auto"
+                href="https://www.linkedin.com/in/jesse-beke/"
+              >
                 <LinkedInIcon className="w-6 my-auto text-white" />
               </a>
-              <a target="_blank" className="m-auto" href="https://twitter.com/jessebeke">
+              <a
+                target="_blank"
+                className="m-auto"
+                href="https://twitter.com/jessebeke"
+              >
                 <XIcon className="w-5 ml-2 my-auto text-white" />
               </a>
             </div>
@@ -73,40 +93,47 @@ export default function Home() {
           </p>
         </div>
         <div className="flex justify-center mt-4 flex-row">
-          <button className="rounded-md cursor-pointer text-sm transition-colors focus-visible:outline-none 0 border bg-white text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 rounded-l-full font-semibold flex items-center justify-center gap-2">
-            <svg
-              className="w-6 h-6 text-gray-800"
-              aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-            >
-              <path
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeWidth="2"
-                d="m3.5 5.5 7.9 6c.4.3.8.3 1.2 0l7.9-6M4 19h16c.6 0 1-.4 1-1V6c0-.6-.4-1-1-1H4a1 1 0 0 0-1 1v12c0 .6.4 1 1 1Z"
-              />
-            </svg>
-            Get in touch
-          </button>
-          <button className="rounded-md text-sm text-white transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:text-white h-10 px-4 py-2 rounded-r-full font-semibold flex items-center justify-center gap-2">
-            <svg
-              className="w-6 h-6 text-white"
-              aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-            >
-              <path
-                stroke="currentColor"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M10 3v4c0 .6-.4 1-1 1H5m14-4v16c0 .6-.4 1-1 1H6a1 1 0 0 1-1-1V8c0-.4.1-.6.3-.8l4-4 .6-.2H18c.6 0 1 .4 1 1Z"
-              />
-            </svg>
-            My Resume
-          </button>
+          <a href="mailto:reachjessehere@gmail.com">
+            <button className="rounded-md cursor-pointer text-sm transition-colors focus-visible:outline-none 0 border bg-white text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 rounded-l-full font-semibold flex items-center justify-center gap-2">
+              <svg
+                className="w-6 h-6 text-gray-800"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeWidth="2"
+                  d="m3.5 5.5 7.9 6c.4.3.8.3 1.2 0l7.9-6M4 19h16c.6 0 1-.4 1-1V6c0-.6-.4-1-1-1H4a1 1 0 0 0-1 1v12c0 .6.4 1 1 1Z"
+                />
+              </svg>
+              Get in touch
+            </button>
+          </a>
+          <a
+            target="_blank"
+            href="https://drive.google.com/file/d/11Qy-EHxVEgOhZ_f--xeSN_UPIjlw0Yz5/view?usp=sharing"
+          >
+            <button className="rounded-md text-sm text-white transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:text-white h-10 px-4 py-2 rounded-r-full font-semibold flex items-center justify-center gap-2">
+              <svg
+                className="w-6 h-6 text-white"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke="currentColor"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M10 3v4c0 .6-.4 1-1 1H5m14-4v16c0 .6-.4 1-1 1H6a1 1 0 0 1-1-1V8c0-.4.1-.6.3-.8l4-4 .6-.2H18c.6 0 1 .4 1 1Z"
+                />
+              </svg>
+              My Resume
+            </button>
+          </a>
         </div>
         <Skills />
         {/* <Skills /> */}
