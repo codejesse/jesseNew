@@ -47,7 +47,7 @@ const Card = () => {
           </span>
         </div>
         {/* links */}
-        <div className="flex mt-2 items-center gap-5">
+        <div className="flex mt-2 items-center gap-3">
           <a target="_blank" href="https://github.com/codejesse/Quid">
             <span className="flex flex-row">
               <GitHubIcon className="text-white w-8" />
@@ -56,7 +56,7 @@ const Card = () => {
           </a>
           <a target="_blank" href="https://quid-two.vercel.app/">
             <span className="flex flex-row">
-              <p>&arr;</p>
+              <p className="text-white rotate-[-25deg]">&arr;</p>
               <p className="text-white text-sm my-auto">Link</p>
             </span>
           </a>
