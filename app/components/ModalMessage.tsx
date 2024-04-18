@@ -47,12 +47,12 @@ export default function ModalMessage() {
                     as="h3"
                     className="text-lg font-medium leading-6 text-white"
                   >
-                    🚧 I'm still moving things around
+                    🚧 I&apos;m still moving things around
                   </Dialog.Title>
                   <div className="mt-2">
                     <p className="text-sm text-gray-500">
-                      Hey 👋🏾 just to let you know i'm still updating somethings, some links might be broken
-                      just check out my <a className="text-white underline" target="_blank" href="https://twitter.com/jessebeke">X(formerly twitter)</a> for what i'm working on currently.
+                      Hey 👋🏾 just to let you know i&apos;m still updating somethings, some links might be broken
+                      just check out my <a className="text-white underline" target="_blank" href="https://twitter.com/jessebeke">X(formerly twitter)</a> for what i&apos;m working on currently.
                     </p>
                   </div>
 
