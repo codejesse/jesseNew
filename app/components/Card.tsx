@@ -33,16 +33,16 @@ const Card = () => {
           your landing page build.
         </p>
         <div className="py-5 flex items-center flex-wrap gap-3 overflow-hidden">
-          <span className="bg-[#222222] border bg-transparent text-white rounded-full px-3 py-1 text-xs">
+          <span className="bg-[#222222] border border-[#5b5b5b] bg-transparent text-white rounded-full px-3 py-1 text-xs">
             Nextjs
           </span>
-          <span className="bg-[#222222] border bg-transparent text-white rounded-full px-3 py-1 text-xs">
+          <span className="bg-[#222222] border border-[#5b5b5b] bg-transparent text-white rounded-full px-3 py-1 text-xs">
             TypeScript
           </span>
-          <span className="bg-[#222222] border bg-transparent text-white rounded-full px-3 py-1 text-xs">
+          <span className="bg-[#222222] border border-[#5b5b5b] bg-transparent text-white rounded-full px-3 py-1 text-xs">
             TailwindCSS
           </span>
-          <span className="bg-[#222222] border bg-transparent text-white rounded-full px-3 py-1 text-xs">
+          <span className="bg-[#222222] border border-[#5b5b5b] bg-transparent text-white rounded-full px-3 py-1 text-xs">
             ButterCMS
           </span>
         </div>
