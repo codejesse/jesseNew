@@ -24,16 +24,28 @@ export default function Home() {
                 Jesse Beke
               </h1>
               <div className="flex flex-row gap-2 lg:hidden">
-                <GitHubIcon className="w-10 my-auto text-white" />
-                <LinkedInIcon className="w-6 my-auto text-white" />
-                <XIcon className="w-5 ml-2 my-auto text-white" />
+                <a className="m-auto" target="_blank" href="https://github.com/codejesse">
+                  <GitHubIcon className="w-10 my-auto text-white" />
+                </a>
+                <a className="m-auto" target="_blank" href="https://www.linkedin.com/in/jesse-beke/">
+                  <LinkedInIcon className="w-6 my-auto text-white" />
+                </a>
+                <a className="m-auto" target="_blank" href="https://twitter.com/jessebeke">
+                  <XIcon className="w-5 ml-2 my-auto text-white" />
+                </a>
               </div>
             </div>
             {/* for icons in nav */}
             <div className="hidden lg:flex flex-row gap-4 text-white">
-              <GitHubIcon className="w-10 my-auto text-white" />
-              <LinkedInIcon className="w-6 my-auto text-white" />
-              <XIcon className="w-5 ml-2 my-auto text-white" />
+              <a target="_blank" href="https://github.com/codejesse">
+                <GitHubIcon className="w-10 my-auto text-white" />
+              </a>
+              <a target="_blank" className="m-auto" href="https://www.linkedin.com/in/jesse-beke/">
+                <LinkedInIcon className="w-6 my-auto text-white" />
+              </a>
+              <a target="_blank" className="m-auto" href="https://twitter.com/jessebeke">
+                <XIcon className="w-5 ml-2 my-auto text-white" />
+              </a>
             </div>
           </div>
         </div>
