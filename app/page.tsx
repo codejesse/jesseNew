@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import Skills from "./components/skills";
 import { GitHubIcon } from "./icons/Github";
@@ -6,10 +8,12 @@ import { XIcon } from "./icons/XIcon";
 import Card from "./components/Card";
 import { GlowLines } from "./components/GlowLines";
 import Footer from "./components/Footer";
+import ModalMessage from "./components/ModalMessage";
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center gap-4 p-24">
+      <ModalMessage />
       <div className="absolute pb-20 top-0 h-fit w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]">
         {/* fixing alignments */}
         <div className="flex justify-center">
