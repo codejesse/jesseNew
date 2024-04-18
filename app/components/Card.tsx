@@ -32,7 +32,7 @@ const Card = () => {
           a headless CMS(ButterCMS) for the sites data. This template can be used to supercharge
           your landing page build.
         </p>
-        <div className="py-5 flex items-center flex-wrap gap-1 overflow-hidden">
+        <div className="py-5 flex items-center flex-wrap gap-3 overflow-hidden">
           <span className="bg-[#222222] border bg-transparent text-white rounded-full px-3 py-1 text-xs">
             Nextjs
           </span>
