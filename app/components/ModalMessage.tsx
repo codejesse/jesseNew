@@ -41,18 +41,18 @@ export default function ModalMessage() {
                 leaveFrom="opacity-100 scale-100"
                 leaveTo="opacity-0 scale-95"
               >
-                <Dialog.Panel className="w-full max-w-md transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all">
-                    <Image src={WIP} alt="wip" />
+                <Dialog.Panel className="w-full max-w-md border border-neutral-600 transform overflow-hidden rounded-2xl bg-neutral-900 p-6 text-left align-middle shadow-xl transition-all">
+                    {/* <Image src={WIP} alt="wip" /> */}
                   <Dialog.Title
                     as="h3"
-                    className="text-lg font-medium leading-6 text-gray-900"
+                    className="text-lg font-medium leading-6 text-white"
                   >
                     🚧 I'm still moving things around
                   </Dialog.Title>
                   <div className="mt-2">
                     <p className="text-sm text-gray-500">
                       Hey 👋🏾 just to let you know i'm still updating somethings, some links might be broken
-                      just check out my <a className="text-black underline" target="_blank" href="https://twitter.com/jessebeke">X(formerly twitter)</a> for what i'm working on currently.
+                      just check out my <a className="text-white underline" target="_blank" href="https://twitter.com/jessebeke">X(formerly twitter)</a> for what i'm working on currently.
                     </p>
                   </div>
 
