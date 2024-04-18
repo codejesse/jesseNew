@@ -56,7 +56,7 @@ const Card = () => {
           </a>
           <a target="_blank" href="https://quid-two.vercel.app/">
             <span className="flex flex-row">
-              <p className="text-white">&#8599;</p>
+              <p className="text-white mr-2">&#8599;</p>
               <p className="text-white text-sm my-auto">Link</p>
             </span>
           </a>
