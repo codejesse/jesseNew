@@ -99,7 +99,7 @@ export default function Home() {
           Projects
         </h1>
         {/* project card */}
-        <div className="border-dotted border-slate-200 flex flex-wrap gap-10 justify-center w-full py-5 md:py-10 px-5 rounded-lg">
+        <div className="border border-[#5b5b5b] flex flex-wrap gap-10 justify-center w-full py-5 md:py-10 px-5 rounded-lg">
           <Card />
           {/* <Card /> */}
         </div>
