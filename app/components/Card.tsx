@@ -7,7 +7,7 @@ import Quid from "../../public/Quid.svg";
 
 const Card = () => {
   return (
-    <div className="border flex-1 w-full md:max-w-[500px] rounded-lg">
+    <div className="border border-[#5b5b5b] flex-1 w-full md:max-w-[500px] rounded-lg">
       <Image
         className="rounded-t-lg"
         src={Quid}
