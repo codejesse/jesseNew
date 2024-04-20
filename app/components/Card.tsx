@@ -4,8 +4,13 @@ import { GitHubIcon } from "../icons/Github";
 
 //temportary import:
 import Quid from "../../public/Quid.svg";
+import { Project } from "../data/projects";
 
-const Card = () => {
+interface CardProps {
+  project: Project;
+}
+
+const Card = ({ project }: CardProps) => {
   return (
     <div className="border border-[#5b5b5b] flex-1 w-full md:max-w-[500px] rounded-lg">
       <Image
@@ -17,7 +22,7 @@ const Card = () => {
       />
       <div className="p-3 md:p-5">
         <div className="pb-5 flex justify-between items-center">
-          <h3 className="text- text-white">Quid</h3>
+          <h3 className="text- text-white">{project.projectName}</h3>
           {/* pulse animation */}
           <p className="flex flex-row gap-2 my-auto text-s text-white">
             <span className="relative flex my-auto justify-center h-3 w-3">

@@ -9,6 +9,7 @@ import Card from "./components/Card";
 import { GlowLines } from "./components/GlowLines";
 import Footer from "./components/Footer";
 import ModalMessage from "./components/ModalMessage";
+import CardList from "./components/CardList";
 
 export default function Home() {
   return (
@@ -143,8 +144,7 @@ export default function Home() {
         </h1>
         {/* project card */}
         <div className="border border-[#5b5b5b] flex flex-wrap gap-10 justify-center w-full py-5 md:py-10 px-5 rounded-lg">
-          <Card />
-          {/* <Card /> */}
+          <CardList />
         </div>
         <div>
           <Footer />

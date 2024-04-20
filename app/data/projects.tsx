@@ -21,6 +21,13 @@ const projects: Project[] = [
     gitLink: "",
     link: "",
   },
+  {
+    projectName: "Vendasupply",
+    imgUrl: "",
+    desc: "",
+    gitLink: "",
+    link: "",
+  },
 ];
 
 export default projects;
