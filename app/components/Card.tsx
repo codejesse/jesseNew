@@ -33,9 +33,7 @@ const Card = ({ project }: CardProps) => {
           </p>
         </div>
         <p className="max-w-[500px] text-[#6A6A6A]">
-          Quid is a Nextjs themed landing page for a fintech mobile app, it is hooked with
-          a headless CMS(ButterCMS) for the sites data. This template can be used to supercharge
-          your landing page build.
+          {project.desc}
         </p>
         <div className="py-5 flex items-center flex-wrap gap-3 overflow-hidden">
           <span className="bg-[#222222] border border-[#5b5b5b] bg-transparent text-white rounded-full px-3 py-1 text-xs">

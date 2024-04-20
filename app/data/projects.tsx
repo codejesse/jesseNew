@@ -17,7 +17,7 @@ const projects: Project[] = [
   {
     projectName: "Quid",
     imgUrl: "",
-    desc: "",
+    desc: "Quid is a Nextjs themed landing page for a fintech mobile app, it is hooked with a headless CMS(ButterCMS) for the sites data. This template can be used to supercharge your landing page build.",
     gitLink: "",
     link: "",
   },
