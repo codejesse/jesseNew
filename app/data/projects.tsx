@@ -12,7 +12,7 @@ const projects: Project[] = [
   {
     projectName: "Draft",
     imgUrl: "",
-    desc: "",
+    desc: "Draft is the worlds first video/audio integrated resume builder that allows you record and share with recruiters and friends and stand out.",
     gitLink: "",
     link: "",
     tools: [],
