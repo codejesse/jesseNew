@@ -4,6 +4,8 @@ export interface Project {
   desc: string;
   gitLink: string;
   link: string;
+  tools: object;
+  status: string;
 }
 
 const projects: Project[] = [
@@ -13,6 +15,8 @@ const projects: Project[] = [
     desc: "",
     gitLink: "",
     link: "",
+    tools: [],
+    status: "In-progress",
   },
   {
     projectName: "Quid",
@@ -20,6 +24,8 @@ const projects: Project[] = [
     desc: "Quid is a Nextjs themed landing page for a fintech mobile app, it is hooked with a headless CMS(ButterCMS) for the sites data. This template can be used to supercharge your landing page build.",
     gitLink: "",
     link: "",
+    tools: [],
+    status: "In-progress",
   },
   {
     projectName: "Vendasupply",
@@ -27,6 +33,8 @@ const projects: Project[] = [
     desc: "",
     gitLink: "",
     link: "",
+    tools: [],
+    status: "Completed",
   },
 ];
 

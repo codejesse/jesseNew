@@ -25,11 +25,11 @@ const Card = ({ project }: CardProps) => {
           <h3 className="text- text-white">{project.projectName}</h3>
           {/* pulse animation */}
           <p className="flex flex-row gap-2 my-auto text-s text-white">
-            <span className="relative flex my-auto justify-center h-3 w-3">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-yellow-400 opacity-75"></span>
-              <span className="relative inline-flex rounded-full h-3 w-3 bg-yellow-500"></span>
+            <span className={`relative flex my-auto justify-center h-3 w-3`}>
+              <span className={`animate-ping absolute inline-flex h-full w-full rounded-full ${project.status === 'In-progress'?'bg-yellow-400':'bg-green-400'} opacity-75`}></span>
+              <span className={`relative inline-flex rounded-full h-3 w-3 ${project.status === 'In-progress'?'bg-yellow-500':'bg-green-500'}`}></span>
             </span>
-            In-progress
+            {project.status}
           </p>
         </div>
         <p className="max-w-[500px] text-[#6A6A6A]">
