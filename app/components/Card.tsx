@@ -51,13 +51,13 @@ const Card = ({ project }: CardProps) => {
         </div>
         {/* links */}
         <div className="flex mt-2 items-center gap-3">
-          <a target="_blank" href="https://github.com/codejesse/Quid">
+          <a target="_blank" href={project.gitLink}>
             <span className="flex flex-row">
               <GitHubIcon className="text-white w-8" />
               <p className="text-white text-sm my-auto">Github</p>
             </span>
           </a>
-          <a target="_blank" href="https://quid-two.vercel.app/">
+          <a target="_blank" href={project.link}>
             <span className="flex flex-row">
               <p className="text-white mr-1">&#8599;</p>
               <p className="text-white text-sm my-auto">Link</p>
