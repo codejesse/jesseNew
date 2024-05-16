@@ -15,7 +15,7 @@ const Card = ({ project }: CardProps) => {
     <div className="border border-[#5b5b5b] flex-1 w-full md:max-w-[500px] rounded-lg">
       <Image
         className="rounded-t-lg"
-        src={Quid}
+        src={project.imgUrl}
         alt=""
         width="500"
         height="40"

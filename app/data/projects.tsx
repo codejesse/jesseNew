@@ -11,7 +11,7 @@ export interface Project {
 const projects: Project[] = [
   {
     projectName: "Draft",
-    imgUrl: "",
+    imgUrl: "https://res.cloudinary.com/daiio9iqt/image/upload/v1715882406/projects/draft_ufxrcd.png",
     desc: "Draft is the worlds first video/audio integrated resume builder that allows you record and share with recruiters and friends and stand out.",
     gitLink: "",
     link: "",
@@ -20,7 +20,7 @@ const projects: Project[] = [
   },
   {
     projectName: "Quid",
-    imgUrl: "",
+    imgUrl: "https://res.cloudinary.com/daiio9iqt/image/upload/v1715882380/projects/Quid_sxggsi.svg",
     desc: "Quid is a Nextjs themed landing page for a fintech mobile app, it is hooked with a headless CMS(prismic) for the sites data. This template can be used to supercharge your landing page build.",
     gitLink: "https://github.com/codejesse/Quid",
     link: "https://quid-two.vercel.app/",
