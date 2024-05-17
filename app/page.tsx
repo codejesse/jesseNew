@@ -21,10 +21,10 @@ export default function Home() {
     kind: "widget" as "widget",
     url: "https://www.videoask.com/f3ax5anxh",
     options: {
-      widgetType: "VideoThumbnailSmall" as "VideoThumbnailSmall",
+      widgetType: "VideoThumbnailSmall" as "VideoThumbnailWindow",
       text: "Reach out",
       backgroundColor: "#FFFFFF",
-      position: "bottom-right",
+      position: "bottom-right" as "bottom-left",
       dismissible: false,
       videoPosition: "center center",
     },
