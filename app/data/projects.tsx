@@ -4,7 +4,7 @@ export interface Project {
   desc: string;
   gitLink: string;
   link: string;
-  tools: object;
+  tools: Array<string>;
   status: string;
 }
 
