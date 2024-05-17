@@ -15,7 +15,7 @@ const projects: Project[] = [
     desc: "Draft is the worlds first video/audio integrated resume builder that allows you record and share with recruiters and friends and stand out.",
     gitLink: "",
     link: "",
-    tools: [],
+    tools: ["Reactjs, Redux-toolkit, TailwindCSS, Firebase"],
     status: "In-progress",
   },
   {
@@ -24,16 +24,16 @@ const projects: Project[] = [
     desc: "Quid is a Nextjs themed landing page for a fintech mobile app, it is hooked with a headless CMS(prismic) for the sites data. This template can be used to supercharge your landing page build.",
     gitLink: "https://github.com/codejesse/Quid",
     link: "https://quid-two.vercel.app/",
-    tools: [],
+    tools: ["Nextjs, TailwindCSS, prismic, Framer-motion"],
     status: "In-progress",
   },
   {
     projectName: "Vendasupply",
-    imgUrl: "",
+    imgUrl: "https://res.cloudinary.com/daiio9iqt/image/upload/v1715930846/projects/venda_ewz2y8.png",
     desc: "Venda makes placing restocking orders more efficient. Our intuitive platform streamlines operations for hotels, restaurants and general retailers.",
     gitLink: "https://vendasupply.com/",
     link: "https://vendasupply.com/",
-    tools: [],
+    tools: ["Nextjs, TailwindCSS"],
     status: "Completed",
   },
 ];

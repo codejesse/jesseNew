@@ -10,6 +10,25 @@ import { GlowLines } from "./components/GlowLines";
 import Footer from "./components/Footer";
 import ModalMessage from "./components/ModalMessage";
 import CardList from "./components/CardList";
+import { useEffect } from "react";
+
+const videoAskEmbedCode = `
+<script>
+window.VIDEOASK_EMBED_CONFIG = {
+  "kind": "widget",
+  "url": "https://www.videoask.com/f3ax5anxh",
+  "options": {
+    "widgetType": "VideoThumbnailSmall",
+    "text": "Reach out",
+    "backgroundColor": "#FFFFFF",
+    "position": "bottom-right",
+    "dismissible": false,
+    "videoPosition": "center center"
+  }
+}
+</script>
+<script src="https://www.videoask.com/embed/embed.js"></script>
+`;
 
 export default function Home() {
   return (
