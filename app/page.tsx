@@ -12,25 +12,24 @@ import ModalMessage from "./components/ModalMessage";
 import CardList from "./components/CardList";
 import { useEffect } from "react";
 
-const videoAskEmbedCode = `
-<script>
-window.VIDEOASK_EMBED_CONFIG = {
-  "kind": "widget",
-  "url": "https://www.videoask.com/f3ax5anxh",
-  "options": {
-    "widgetType": "VideoThumbnailSmall",
-    "text": "Reach out",
-    "backgroundColor": "#FFFFFF",
-    "position": "bottom-right",
-    "dismissible": false,
-    "videoPosition": "center center"
-  }
-}
-</script>
-<script src="https://www.videoask.com/embed/embed.js"></script>
-`;
+import VideoAskProvider from "@altmind-digital/videoask-custom-provider";
+import ShowWidget from "./components/ShowWidget";
+
 
 export default function Home() {
+  const videoAskConfig = {
+    kind: "widget" as "widget",
+    url: "https://www.videoask.com/f3ax5anxh",
+    options: {
+      widgetType: "VideoThumbnailSmall" as "VideoThumbnailSmall",
+      text: "Reach out",
+      backgroundColor: "#FFFFFF",
+      position: "bottom-right",
+      dismissible: false,
+      videoPosition: "center center",
+    },
+  };
+
   return (
     <main className="flex min-h-screen flex-col items-center gap-4 p-24">
       <ModalMessage />
@@ -169,6 +168,9 @@ export default function Home() {
           <Footer />
         </div>
       </div>
+      <VideoAskProvider config={videoAskConfig}>
+        <ShowWidget />
+      </VideoAskProvider>
     </main>
   );
 }

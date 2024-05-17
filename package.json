@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@altmind-digital/videoask-custom-provider": "^1.0.1",
     "@headlessui/react": "^1.7.19",
     "@motionone/utils": "^10.17.0",
     "framer-motion": "^11.0.3",
