@@ -46,11 +46,14 @@ const Card = ({ project }: CardProps) => {
         </div>
         <p className="max-w-[500px] text-[#6A6A6A]">{project.desc}</p>
         <div className="py-5 flex items-center flex-wrap gap-3 overflow-hidden">
-          <span className="bg-[#222222] border border-[#5b5b5b] bg-transparent text-white rounded-full px-3 py-1 text-xs">
-            {project.tools.map((item, i) => (
-              <div key={i}>{item}</div>
-            ))}
-          </span>
+          {project.tools.map((item, i) => (
+            <span
+              key={i}
+              className="bg-[#222222] border border-[#5b5b5b] bg-transparent text-white rounded-full px-3 py-1 text-xs"
+            >
+              {item}
+            </span>
+          ))}
         </div>
         <div className="flex mt-2 items-center gap-3">
           <a target="_blank" href={project.gitLink}>
