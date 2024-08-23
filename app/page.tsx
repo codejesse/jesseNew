@@ -15,7 +15,6 @@ import { useEffect } from "react";
 import VideoAskProvider from "@altmind-digital/videoask-custom-provider";
 import ShowWidget from "./components/ShowWidget";
 
-
 export default function Home() {
   const videoAskConfig = {
     kind: "widget" as "widget",
