@@ -104,7 +104,7 @@ export default function Home() {
           I&apos;m Jesse Beke
         </h1>
         <div className="flex justify-center">
-          <p className="w-[80%] md:w-[80%] lg:w-[50%] text-[15px] lg:text-[18px] text-center text-[#6A6A6A]">
+          <p className="w-[80%] md:w-[80%] lg:w-[50%] text-[15px] lg:text-[18px] text-center text-[#d8d8d8]">
             Budding frontend engineer. I work with the React Ecosystem and I
             also create content around Javascript, React JS, Next JS and
             Typescript.
