@@ -40,13 +40,13 @@ const projects: Project[] = [
     status: "In-progress",
   },
   {
-    projectName: "Untitled project",
+    projectName: "Scoutr",
     imgUrl:
       "https://res.cloudinary.com/daiio9iqt/image/upload/v1724437819/projects/8f0bd208-091c-444b-b777-8675028ab0ab.png",
-    desc: "Untitled description.",
+    desc: "Browse through popular SaaS tools and also submit yours.",
     gitLink: "#",
     link: "#",
-    tools: ["Untitled"],
+    tools: ["Nextjs", "TailwindCSS", "Prisma", "Supabase"],
     status: "In-progress",
   },
   {
