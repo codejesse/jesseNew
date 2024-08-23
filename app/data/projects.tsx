@@ -14,19 +14,9 @@ const projects: Project[] = [
     imgUrl:
       "https://res.cloudinary.com/daiio9iqt/image/upload/v1724437262/projects/4daed393-f61d-4c6b-bc92-0c0a64acb786.png",
     desc: "Create actionable business recommendations from user feedback with ai.",
-    gitLink: "",
-    link: "",
+    gitLink: "#",
+    link: "#",
     tools: ["Nextjs", "Postgresql", "Drizzle", "trpc"],
-    status: "In-progress",
-  },
-  {
-    projectName: "Draft",
-    imgUrl:
-      "https://res.cloudinary.com/daiio9iqt/image/upload/v1715882406/projects/draft_ufxrcd.png",
-    desc: "Draft is the worlds first video/audio integrated resume builder that allows you record and share with recruiters and friends and stand out.",
-    gitLink: "",
-    link: "",
-    tools: ["Reactjs", "Redux-toolkit", "TailwindCSS", "Firebase"],
     status: "In-progress",
   },
   {
@@ -47,6 +37,16 @@ const projects: Project[] = [
     gitLink: "https://github.com/codejesse/forge-ai",
     link: "https://github.com/codejesse/forge-ai",
     tools: ["Reactjs", "TailwindCSS", "Firebase", "Gemini api"],
+    status: "In-progress",
+  },
+  {
+    projectName: "Untitled project",
+    imgUrl:
+      "https://res.cloudinary.com/daiio9iqt/image/upload/v1724437819/projects/8f0bd208-091c-444b-b777-8675028ab0ab.png",
+    desc: "Untitled description.",
+    gitLink: "#",
+    link: "#",
+    tools: ["Untitled"],
     status: "In-progress",
   },
   {
