@@ -42,7 +42,7 @@ const projects: Project[] = [
   {
     projectName: "Sofa-commerce",
     imgUrl:
-      "https://res.cloudinary.com/daiio9iqt/image/upload/v1725306571/8845e51a-1635-440e-bdfb-8e2cacda234d.png",
+      "https://res.cloudinary.com/daiio9iqt/image/upload/v1725383490/projects/fc856029-66d5-4236-bbdd-b472eaf72a1c.png",
     desc: "Sofa Commerce is a Next.js-based e-commerce platform where you can shop the best deals on furniture. The project is optimized for performance and SEO, offering a seamless shopping experience.",
     gitLink: "https://github.com/codejesse/Sofa",
     link: "https://sofa-beta.vercel.app/",
