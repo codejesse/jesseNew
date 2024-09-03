@@ -40,15 +40,25 @@ const projects: Project[] = [
     status: "In-progress",
   },
   {
-    projectName: "Scoutr",
+    projectName: "Sofa-commerce",
     imgUrl:
-      "https://res.cloudinary.com/daiio9iqt/image/upload/v1724437819/projects/8f0bd208-091c-444b-b777-8675028ab0ab.png",
-    desc: "Browse through popular SaaS tools and also submit yours.",
-    gitLink: "#",
-    link: "#",
-    tools: ["Nextjs", "TailwindCSS", "Prisma", "Supabase"],
-    status: "In-progress",
+      "https://res.cloudinary.com/daiio9iqt/image/upload/v1725306571/8845e51a-1635-440e-bdfb-8e2cacda234d.png",
+    desc: "Sofa Commerce is a Next.js-based e-commerce platform where you can shop the best deals on furniture. The project is optimized for performance and SEO, offering a seamless shopping experience.",
+    gitLink: "https://github.com/codejesse/Sofa",
+    link: "https://sofa-beta.vercel.app/",
+    tools: ["Nextjs", "TailwindCSS", "Dexijs", "shadcn"],
+    status: "Completed",
   },
+  // {
+  //   projectName: "Untitled",
+  //   imgUrl:
+  //     "https://res.cloudinary.com/daiio9iqt/image/upload/v1724437819/projects/8f0bd208-091c-444b-b777-8675028ab0ab.png",
+  //   desc: "Browse through popular SaaS tools and also submit yours.",
+  //   gitLink: "#",
+  //   link: "#",
+  //   tools: ["Nextjs", "TailwindCSS", "Prisma", "Supabase"],
+  //   status: "In-progress",
+  // },
   {
     projectName: "Quid",
     imgUrl:
