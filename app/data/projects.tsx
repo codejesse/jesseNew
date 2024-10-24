@@ -46,7 +46,7 @@ const projects: Project[] = [
     desc: "Sofa Commerce is a Next.js-based e-commerce platform where you can shop the best deals on furniture. The project is optimized for performance and SEO, offering a seamless shopping experience.",
     gitLink: "https://github.com/codejesse/Sofa",
     link: "https://sofa-beta.vercel.app/",
-    tools: ["Nextjs", "TailwindCSS", "Dexijs", "shadcn"],
+    tools: ["Nextjs", "TailwindCSS", "Dexiejs", "shadcn"],
     status: "Completed",
   },
   // {
