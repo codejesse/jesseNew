@@ -12,7 +12,7 @@ const projects: Project[] = [
   {
     projectName: "Pollstack",
     imgUrl:
-      "https://res.cloudinary.com/daiio9iqt/image/upload/v1724437262/projects/4daed393-f61d-4c6b-bc92-0c0a64acb786.png",
+      "https://res.cloudinary.com/daiio9iqt/image/upload/v1729795365/projects/4daed393-f61d-4c6b-bc92-0c0a64acb786.svg",
     desc: "Create actionable business recommendations from user feedback with ai.",
     gitLink: "#",
     link: "#",
