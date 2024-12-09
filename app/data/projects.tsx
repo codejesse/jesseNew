@@ -10,13 +10,13 @@ export interface Project {
 
 const projects: Project[] = [
   {
-    projectName: "Pollstack",
+    projectName: "ORMA",
     imgUrl:
       "https://res.cloudinary.com/daiio9iqt/image/upload/v1729796627/projects/4daed393-f61d-4c6b-bc92-0c0a64acb786.png",
     desc: "Create actionable business recommendations from user feedback with ai.",
     gitLink: "#",
     link: "#",
-    tools: ["Nextjs", "Postgresql", "Drizzle", "trpc"],
+    tools: ["Nextjs", "Postgresql", "Drizzle", "Gemini-API", "TailwindCSS"],
     status: "In-progress",
   },
   {
@@ -24,10 +24,10 @@ const projects: Project[] = [
     imgUrl:
       "https://res.cloudinary.com/daiio9iqt/image/upload/v1715882406/projects/draft_ufxrcd.png",
     desc: "Draft is the worlds first video/audio integrated resume builder that allows you record and share with recruiters and friends and stand out.",
-    gitLink: "",
-    link: "",
+    gitLink: "https://draft-beta-pink.vercel.app/signup",
+    link: "https://draft-beta-pink.vercel.app/signup",
     tools: ["Reactjs", "Redux-toolkit", "TailwindCSS", "Firebase"],
-    status: "In-progress",
+    status: "Completed",
   },
   {
     projectName: "Forge ai",
