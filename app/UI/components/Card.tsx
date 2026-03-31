@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
-import { GitHubIcon } from "../icons/Github";
+import { GitHubIcon } from "../../icons/Github";
 
 //temportary import:
-import Quid from "../../public/Quid.svg";
-import { Project } from "../data/projects";
+import Quid from "../../../public/Quid.svg";
+import { Project } from "../../data/projects";
 
 interface CardProps {
   project: Project;

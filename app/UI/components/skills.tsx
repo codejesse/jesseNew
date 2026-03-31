@@ -1,13 +1,13 @@
 import React from "react";
-import { ReactIcon } from "../icons/ReactIcon";
-import { JsIcon } from "../icons/JsIcon";
-import { NextIcon } from "../icons/NextIcon";
-import { HtmlIcon } from "../icons/HtmlIcon";
-import { CssIcon } from "../icons/CssIcon";
-import { PostgreIcon } from "../icons/PostgreIcon";
-import { FirebaseIcon } from "../icons/FirebaseIcon";
-import { TailwindIcon } from "../icons/TailwindIcon";
-import { PrismaIcon } from "../icons/PrismaIcon";
+import { ReactIcon } from "../../icons/ReactIcon";
+import { JsIcon } from "../../icons/JsIcon";
+import { NextIcon } from "../../icons/NextIcon";
+import { HtmlIcon } from "../../icons/HtmlIcon";
+import { CssIcon } from "../../icons/CssIcon";
+import { PostgreIcon } from "../../icons/PostgreIcon";
+import { FirebaseIcon } from "../../icons/FirebaseIcon";
+import { TailwindIcon } from "../../icons/TailwindIcon";
+import { PrismaIcon } from "../../icons/PrismaIcon";
 
 const Skills = () => {
   return (

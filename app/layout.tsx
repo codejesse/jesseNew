@@ -1,8 +1,36 @@
 import type { Metadata } from "next";
-import { Syne } from "next/font/google";
+import { Syne, Chonburi } from "next/font/google";
 import "./globals.css";
+import localFont from "next/font/local";
+import { ThemeProvider } from "./ThemeProvider";
 
-const syne = Syne({ subsets: ["latin"] });
+const syne = Syne({
+    subsets: ["latin"],
+    variable: "--font-syne",
+});
+
+const chonburi = Chonburi({
+    weight: "400",
+    subsets: ["latin"],
+    variable: "--font-chonburi",
+});
+
+const clashDisplay = localFont({
+    variable: "--font-clash",
+    display: "swap",
+    src: [
+        {
+            path: "../public/fonts/ClashDisplay-Regular.ttf",
+            weight: "400",
+            style: "normal",
+        },
+        {
+            path: "../public/fonts/ClashDisplay-Bold.ttf",
+            weight: "700",
+            style: "normal",
+        },
+    ]
+})
 
 export const metadata: Metadata = {
   title: "Jesse Beke",
@@ -15,8 +43,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={syne.className}>{children}</body>
+    <html lang="en" suppressHydrationWarning>
+      <body className={`${syne.variable} ${chonburi.variable} ${clashDisplay.variable}`}>
+        <ThemeProvider attribute="class">
+          {children}
+        </ThemeProvider>
+      </body>
     </html>
   );
 }
