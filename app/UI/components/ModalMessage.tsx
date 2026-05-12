@@ -1,7 +1,7 @@
 import { Dialog, Transition } from "@headlessui/react";
 import { Fragment, useState } from "react";
 import Image from "next/image";
-import WIP from "../../public/WIP.webp"
+import WIP from "../../../public/WIP.webp"
 
 export default function ModalMessage() {
   let [isOpen, setIsOpen] = useState(true);

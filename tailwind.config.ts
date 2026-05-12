@@ -1,6 +1,7 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
+  darkMode: "class",
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -12,6 +13,11 @@ const config: Config = {
         flip: "flip 6s infinite steps(2, end)",
         rotate: "rotate 3s linear infinite both",
         "infinite-scroll": "infinite-scroll 25s linear infinite",
+      },
+      fontFamily: {
+        clash: ["var(--font-clash)"],
+        syne: ["var(--font-syne)"],
+        chonburi: ["var(--font-chonburi)"],
       },
       keyframes: {
         flip: {

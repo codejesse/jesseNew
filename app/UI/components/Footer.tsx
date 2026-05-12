@@ -1,7 +1,7 @@
 import React from "react";
-import { GitHubIcon } from "../icons/Github";
-import { LinkedInIcon } from "../icons/LinkedIn";
-import { XIcon } from "../icons/XIcon";
+import { GitHubIcon } from "../../icons/Github";
+import { LinkedInIcon } from "../../icons/LinkedIn";
+import { XIcon } from "../../icons/XIcon";
 
 // work on footer
 // use this https://dribbble.com/shots/23531329-kawsar-design-2024
