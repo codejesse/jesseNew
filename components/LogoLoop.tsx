@@ -178,7 +178,7 @@ const useAnimationLoop = (
             }
             lastTimestampRef.current = null;
         };
-    }, [targetVelocity, seqWidth, seqHeight, isHovered, hoverSpeed, isVertical]);
+    }, [targetVelocity, seqWidth, seqHeight, isHovered, hoverSpeed, isVertical, trackRef]);
 };
 
 export const LogoLoop = React.memo<LogoLoopProps>(

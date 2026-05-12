@@ -118,11 +118,11 @@ export default function Home() {
                         </div>
                         <div className="mt-8 text-left">
                             <p className="text-gray-800 dark:text-white transition-colors font-clash leading-relaxed">
-                                I'm Jesse Beke, a 22-year old Software Developer, robotics enthusiast and life long learner.
-                                I'm currently working on a few things <span className="inline-block h-fit w-20 bg-[url(../public/draft-logo.svg)] dark:bg-[url(../public/draft-logo-dark.svg)] bg-no-repeat text-none mr-[-24px]">, </span> a kinetic content generator for newsletter content creators, also <span className="inline-block h-fit w-20 bg-[url(../public/Arju-logo-light.svg)] dark:bg-[url(../public/Arju-logo.svg)] bg-no-repeat mr-[-35px]">,</span> the future of trust and e-commerce in the used products market.
+                                I&apos;m Jesse Beke, a 22-year old Software Developer, robotics enthusiast and life long learner.
+                                I&apos;m currently working on a few things <span className="inline-block h-fit w-20 bg-[url(../public/draft-logo.svg)] dark:bg-[url(../public/draft-logo-dark.svg)] bg-no-repeat text-none mr-[-24px]">, </span> a kinetic content generator for newsletter content creators, also <span className="inline-block h-fit w-20 bg-[url(../public/Arju-logo-light.svg)] dark:bg-[url(../public/Arju-logo.svg)] bg-no-repeat mr-[-35px]">,</span> the future of trust and e-commerce in the used products market.
                             </p>
                             <p className="mt-4 text-gray-800 dark:text-white transition-colors font-clash leading-relaxed">
-                                I'm also looking to contribute to projects or a team passionate about changing the world, feel free to checkout my projects and my qualifications, reach out to me and i’ll be back at you <strong>ASAP!</strong>
+                                I&apos;m also looking to contribute to projects or a team passionate about changing the world, feel free to checkout my projects and my qualifications, reach out to me and i&rsquo;ll be back at you <strong>ASAP!</strong>
                                 <span className="inline-flex flex-wrap items-center gap-4 ml-0 md:ml-3 mt-2 md:mt-0 relative top-0.5">
                                     <a href="mailto:reachjessehere@gmail.com" className="inline-flex items-center gap-1.5 font-medium hover:underline text-black dark:text-white transition-colors">
                                         <SiGmail className="w-4 h-4 text-[#EA4335]" />
@@ -188,7 +188,7 @@ export default function Home() {
                                      <div className="flex flex-col md:flex-row gap-6 justify-between items-start md:items-center">
                                          <div className="flex-1 flex flex-col justify-center">
                                              <p className="text-gray-400 font-clash text-xs mb-2">2019 - present</p>
-                                             <h3 className="text-xl font-clash font-bold text-black dark:text-white mb-2">Draft - Create next generation resumes.</h3>
+                                             <h3 className="text-xl font-clash font-bold text-black dark:text-white mb-2">Cuewind - Negotiate like a pro as fast as the wind.</h3>
                                              <p className="text-gray-500 dark:text-gray-400 font-clash text-sm mb-4 leading-relaxed max-w-sm">
                                                  Fill your project brief here. It can be the outcome of the project, or some success metrics, or a cheesy tagline.
                                              </p>
